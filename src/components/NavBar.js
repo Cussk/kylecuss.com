@@ -10,8 +10,22 @@ const NavBar = () => {
     //cycle clicked
     const handleClick = () => setClick(!click);
 
+    //change color state
+    const [color, setColor] = useState(false);
+    //when scrolling Y axis more than 100px change color state
+    const changeColor = () => {
+        if (window.scrollY >= 100) {
+            setColor(true);
+        } else {
+            setColor(false);
+        }
+    };
+
+    //listens for a scroll, flips color state true or false when sroll
+    window.addEventListener("scroll", changeColor);
+
     return (
-    <div className='header'>
+    <div className={color ? 'header header-bg' : 'header'}>
         <Link to='/'>
             <h1>Portfolio</h1>
         </Link>
@@ -28,8 +42,6 @@ const NavBar = () => {
             <FaTimes size={20} style={{color: "#fff"}}/>) 
             : (
             <FaBars size={20} style={{color: "#fff"}}/>)}
-
-            
         </div>
     </div>
   )
