@@ -1,0 +1,7 @@
+.resume-container img {
+   width: 100%;
+   height: 100%;
+   background-size: cover; /* scales image to cover img area */
+   background-position: center;
+   object-fit: cover;
+}
