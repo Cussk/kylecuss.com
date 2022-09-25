@@ -44,14 +44,14 @@
         height: 100vh;
         background: rgba(0, 0, 0, 0.9);
         position: absolute;
-        top: 0;
-        left: -100%; /* takes nav menu out of view on default/when x clicked*/
+        top: -700px;
+        left: 0; /* takes nav menu out of view on default/when x clicked*/
         z-index: -3;
         transition: 0.5s;
     }
 
     .nav-menu.active {
-        left: 0; /* puts nav menu back in view when hamburger clicked*/
+        top: 0; /* puts nav menu back in view when hamburger clicked*/
     }
     
     .nav-menu li {
