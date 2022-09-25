@@ -22,7 +22,7 @@ const ProjectCardData = [
 
     {
        imgsrc: pro3,
-       title: 'Spotify CLone (In Progress)',
+       title: 'Spotify Clone (In Progress)',
        text: 'Spotify clone with React 18, Tailwind, Shazam, and Redux.',
        view: 'url.com',
        source: 'url.com',

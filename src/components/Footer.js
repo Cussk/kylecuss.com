@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
                 <div className='phone'>
                 <h4><FaPhone size={20} style={{color: '#fff', marginRight: '2rem'}}/>
-                1-705-641-0213</h4>
+                1-705-205-0445</h4>
                 </div>
                 <div className='email'>
                 <h4><FaMailBulk size={20} style={{color: '#fff', marginRight: '2rem'}}/>
