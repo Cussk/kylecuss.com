@@ -12,7 +12,7 @@ const AboutContent = () => {
             <p>I am an aspiring Web Developer who is currently in the process of learning and changing careers.</p>
             <p>I have a diverse work background with knowledge of the medical, construction, and manufacturing sectors.  I am thrilled to be taking the steps to break into the technology sector, which I have always had an interest in. </p>
             <p>I am excited to continue to develop my skills and take on new prjects.</p>
-            <Link to='/contact'><button className='btn'>Contact</button></Link>
+            <Link to='/kylecuss.com/contact'><button className='btn'>Contact</button></Link>
         </div>
         <div className='right'>
             <div className='img-container'>
