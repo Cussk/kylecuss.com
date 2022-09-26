@@ -26,7 +26,7 @@ const NavBar = () => {
 
     return (
     <div className={color ? 'header header-bg' : 'header'}>
-        <Link to='/'>
+        <Link to='/kylecuss.com/'>
             <h1>Portfolio</h1>
         </Link>
         {/* if clicked show nav menu else hide */}
