@@ -1,6 +1,5 @@
 import './WorkCard.css';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 //takes WorkCardData array as props
 const WorkCard = (props) => {
@@ -11,8 +10,8 @@ const WorkCard = (props) => {
                 <div className='pro-details'>
                     <p> {props.text}</p>
                     <div className='pro-btns'>
-                        <a href={props.view} target='_blank' className='btn'>View</a>
-                        <a href={props.source} target='_blank' className='btn'>Source</a>
+                        <a href={props.view} target='_blank' rel='noreferrer' className='btn'>View</a>
+                        <a href={props.source} target='_blank' rel='noreferrer' className='btn'>Source</a>
                     </div>
                 </div>
             </div>

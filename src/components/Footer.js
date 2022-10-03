@@ -1,8 +1,6 @@
 import './Footer.css';
 import React from 'react'
-import {FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter} from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-import { hover } from '@testing-library/user-event/dist/hover';
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter} from 'react-icons/fa';
 
 const Footer = () => {
   return (
