@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/kylecuss.com/static/css/main.a367b2a3.css",
-    "main.js": "/kylecuss.com/static/js/main.0935ea84.js",
+    "main.js": "/kylecuss.com/static/js/main.aa800446.js",
     "static/media/hair-day.png": "/kylecuss.com/static/media/hair-day.565c0960ded30b6c598f.png",
     "static/media/skills-project.png": "/kylecuss.com/static/media/skills-project.a99640e9013e982c777b.png",
     "static/media/coding.jpg": "/kylecuss.com/static/media/coding.04fd0b62ed08807a61a4.jpg",
     "static/media/react.jpg": "/kylecuss.com/static/media/react.cf7b6bd11cab94294c3e.jpg",
+    "static/media/Lyriks.png": "/kylecuss.com/static/media/Lyriks.a76f3ac7ad455046a57f.png",
     "static/media/desk.jpg": "/kylecuss.com/static/media/desk.8a5e788f5acfa623fe67.jpg",
     "static/media/code.jpg": "/kylecuss.com/static/media/code.0e4bbe2078644abd3965.jpg",
     "static/media/Resume2.png": "/kylecuss.com/static/media/Resume2.53d13560764060600db0.png",
     "static/media/Resume1.png": "/kylecuss.com/static/media/Resume1.ff1bbc90d0cc6fe2d623.png",
-    "static/media/spotify.jpg": "/kylecuss.com/static/media/spotify.5e0f102a4ad96aff7f09.jpg",
     "index.html": "/kylecuss.com/index.html",
     "main.a367b2a3.css.map": "/kylecuss.com/static/css/main.a367b2a3.css.map",
-    "main.0935ea84.js.map": "/kylecuss.com/static/js/main.0935ea84.js.map"
+    "main.aa800446.js.map": "/kylecuss.com/static/js/main.aa800446.js.map"
   },
   "entrypoints": [
     "static/css/main.a367b2a3.css",
-    "static/js/main.0935ea84.js"
+    "static/js/main.aa800446.js"
   ]
 }
