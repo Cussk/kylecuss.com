@@ -44,7 +44,7 @@
         height: 100vh;
         background: rgba(0, 0, 0, 0.9);
         position: absolute;
-        top: -700px;
+        top: -1200px;
         left: 0; /* takes nav menu out of view on default/when x clicked*/
         z-index: -3;
         transition: 0.5s;
