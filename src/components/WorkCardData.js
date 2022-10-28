@@ -2,6 +2,7 @@ import pro1 from '../assets/skills-project.png';
 import pro2 from '../assets/hair-day.png';
 import pro3 from '../assets/Lyriks.png';
 import pro4 from '../assets/bmi-calc.png';
+import pro5 from '../assets/kanban.png';
 
 //array with data for project cards
 const ProjectCardData = [
@@ -14,11 +15,11 @@ const ProjectCardData = [
     },
 
     {
-        imgsrc: pro2,
-        title: 'Hair Day Website',
-        text: 'Responsive landing page for dummy Salon company "Hair Day."  Website designed based off logo and short description of companies values.',
-        view: 'https://cussk.github.io/META-HTML-CSS-Project/',
-        source: 'https://github.com/Cussk/skills-for-hire-project'
+        imgsrc: pro5,
+        title: 'Kanban',
+        text: 'Kanban to do list created with React, Node.js, Express, and Web Sockets (Socket.io). This kanban board allows the creation of of new tasks, comments on tasks and drag and drop functionality with React Beautiful DND.',
+        view: 'https://github.com/Cussk/kanban',
+        source: 'https://github.com/Cussk/kanban'
     },
 
     {
@@ -35,6 +36,14 @@ const ProjectCardData = [
        text: 'Simple BMI calculator using Flutter to create Android app.',
        view: 'https://github.com/Cussk/bmi-calc-flutter',
        source: 'https://github.com/Cussk/bmi-calc-flutter',
+    },
+
+    {
+        imgsrc: pro2,
+        title: 'Hair Day Website',
+        text: 'Responsive landing page for mock Salon company "Hair Day."  Website designed based off logo and short description of companies values.',
+        view: 'https://cussk.github.io/META-HTML-CSS-Project/',
+        source: 'https://github.com/Cussk/skills-for-hire-project'
     },
 
 ];
