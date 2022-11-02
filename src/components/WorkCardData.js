@@ -8,8 +8,8 @@ import pro5 from '../assets/kanban.png';
 const ProjectCardData = [
     {
         imgsrc: pro1,
-        title: 'Skills for Hire Project (In Progress)',
-        text: 'Full Stack website developed for the Skills for Hire bootcamp.  Responsive website created from provided proof with own stylings added. Part 1 completed: Responsive static website.  Part 2 completed: Booking form created and using PHP and GET display input form information onto Thank you page. Part 3 to follow.',
+        title: 'Skills for Hire Project',
+        text: 'Full Stack website developed for the Skills for Hire bootcamp.  Responsive website created from provided proof with own stylings added. Part 1: Responsive static website.  Part 2: Booking form created and using PHP and GET display input form information onto Thank you page. Part 3: Connected to mySQL database via PHP. Take form information and upload to database to created trips based on a 5 field table. Import data from table and dynamically display on HTML webpage with PHP',
         view: 'https://github.com/Cussk/skills-for-hire-project',
         source: 'https://github.com/Cussk/skills-for-hire-project'
     },
