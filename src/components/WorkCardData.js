@@ -3,6 +3,7 @@ import pro2 from '../assets/hair-day.png';
 import pro3 from '../assets/Lyriks.png';
 import pro4 from '../assets/bmi-calc.png';
 import pro5 from '../assets/kanban.png';
+import pro6 from '../assets/mern-social.png';
 
 //array with data for project cards
 const ProjectCardData = [
@@ -12,6 +13,14 @@ const ProjectCardData = [
         text: 'Full Stack website developed for the Skills for Hire bootcamp.  Responsive website created from provided proof with own stylings added. Part 1: Responsive static website.  Part 2: Booking form created and using PHP and GET display input form information onto Thank you page. Part 3: Connected to mySQL database via PHP. Take form information and upload to database to created trips based on a 5 field table. Import data from table and dynamically display on HTML webpage with PHP',
         view: 'https://github.com/Cussk/skills-for-hire-project',
         source: 'https://github.com/Cussk/skills-for-hire-project'
+    },
+
+    {
+       imgsrc: pro6,
+       title: 'Reflections',
+       text: 'This project was created to showcase my Full Stack development abilities with the MERN stack. Using the React.js framework, Redux.js, express.js, Mongo DB, and Material CSS to create a dynamic social media web app where you can create, update delete, and like posts. This project reinforced the use of the MERN stack to link a Mongo DB database to a React front-end app with epxress.js and mongoose.',
+       view: 'https://mern-soical.netlify.app/',
+       source: 'https://github.com/Cussk/MERN-social',
     },
 
     {
