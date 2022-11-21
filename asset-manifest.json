@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kylecuss.com/static/css/main.a4c37932.css",
-    "main.js": "/kylecuss.com/static/js/main.4139338b.js",
+    "main.js": "/kylecuss.com/static/js/main.33b19ba5.js",
     "static/media/hair-day.png": "/kylecuss.com/static/media/hair-day.565c0960ded30b6c598f.png",
     "static/media/skills-project.png": "/kylecuss.com/static/media/skills-project.a99640e9013e982c777b.png",
     "static/media/coding.jpg": "/kylecuss.com/static/media/coding.04fd0b62ed08807a61a4.jpg",
@@ -9,17 +9,17 @@
     "static/media/Lyriks.png": "/kylecuss.com/static/media/Lyriks.a76f3ac7ad455046a57f.png",
     "static/media/mern-social.png": "/kylecuss.com/static/media/mern-social.97aa907a536545904c24.png",
     "static/media/desk.jpg": "/kylecuss.com/static/media/desk.8a5e788f5acfa623fe67.jpg",
-    "static/media/Resume2.png": "/kylecuss.com/static/media/Resume2.77b1af89f6389714379c.png",
     "static/media/code.jpg": "/kylecuss.com/static/media/code.0e4bbe2078644abd3965.jpg",
-    "static/media/Resume1.png": "/kylecuss.com/static/media/Resume1.1be5379e79e5bfa32690.png",
+    "static/media/Resume2.png": "/kylecuss.com/static/media/Resume2.191b3dbf3b50e1b946c6.png",
+    "static/media/Resume1.png": "/kylecuss.com/static/media/Resume1.ec715b2e13d2c7ad6a91.png",
     "static/media/bmi-calc.png": "/kylecuss.com/static/media/bmi-calc.d40b3a5ac79a7096bbf6.png",
     "static/media/kanban.png": "/kylecuss.com/static/media/kanban.d65ebd82218dd152a6b2.png",
     "index.html": "/kylecuss.com/index.html",
     "main.a4c37932.css.map": "/kylecuss.com/static/css/main.a4c37932.css.map",
-    "main.4139338b.js.map": "/kylecuss.com/static/js/main.4139338b.js.map"
+    "main.33b19ba5.js.map": "/kylecuss.com/static/js/main.33b19ba5.js.map"
   },
   "entrypoints": [
     "static/css/main.a4c37932.css",
-    "static/js/main.4139338b.js"
+    "static/js/main.33b19ba5.js"
   ]
 }
