@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kylecuss.com/static/css/main.a4c37932.css",
-    "main.js": "/kylecuss.com/static/js/main.33b19ba5.js",
+    "main.js": "/kylecuss.com/static/js/main.390e4f19.js",
     "static/media/hair-day.png": "/kylecuss.com/static/media/hair-day.565c0960ded30b6c598f.png",
     "static/media/skills-project.png": "/kylecuss.com/static/media/skills-project.a99640e9013e982c777b.png",
     "static/media/coding.jpg": "/kylecuss.com/static/media/coding.04fd0b62ed08807a61a4.jpg",
@@ -16,10 +16,10 @@
     "static/media/kanban.png": "/kylecuss.com/static/media/kanban.d65ebd82218dd152a6b2.png",
     "index.html": "/kylecuss.com/index.html",
     "main.a4c37932.css.map": "/kylecuss.com/static/css/main.a4c37932.css.map",
-    "main.33b19ba5.js.map": "/kylecuss.com/static/js/main.33b19ba5.js.map"
+    "main.390e4f19.js.map": "/kylecuss.com/static/js/main.390e4f19.js.map"
   },
   "entrypoints": [
     "static/css/main.a4c37932.css",
-    "static/js/main.33b19ba5.js"
+    "static/js/main.390e4f19.js"
   ]
 }
