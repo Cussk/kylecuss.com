@@ -1,7 +1,5 @@
 import pro1 from '../assets/skills-project.png';
-import pro2 from '../assets/hair-day.png';
 import pro3 from '../assets/Lyriks.png';
-import pro4 from '../assets/bmi-calc.png';
 import pro5 from '../assets/kanban.png';
 import pro6 from '../assets/mern-social.png';
 
@@ -38,23 +36,6 @@ const ProjectCardData = [
        view: 'https://spotify-clone-lyriks.netlify.app/',
        source: 'https://github.com/Cussk/spotify-clone',
     },
-
-    {
-       imgsrc: pro4,
-       title: 'BMI Calculator',
-       text: 'Simple BMI calculator using Flutter to create Android app.',
-       view: 'https://github.com/Cussk/bmi-calc-flutter',
-       source: 'https://github.com/Cussk/bmi-calc-flutter',
-    },
-
-    {
-        imgsrc: pro2,
-        title: 'Hair Day Website',
-        text: 'Responsive landing page for mock Salon company "Hair Day."  Website designed based off logo and short description of companies values.',
-        view: 'https://cussk.github.io/META-HTML-CSS-Project/',
-        source: 'https://github.com/Cussk/skills-for-hire-project'
-    },
-
 ];
 
 export default ProjectCardData;

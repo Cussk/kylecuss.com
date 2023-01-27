@@ -4,7 +4,7 @@ import "./index.css";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
 import Home from "./routes/Home";
-import Project from "./routes/Project";
+import Projects from "./routes/Projects";
 import Resume from "./routes/Resume";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <>
     <Routes>
       <Route path="/kylecuss.com/" element={<Home />} />
-      <Route path="/kylecuss.com/project" element={<Project />} />
+      <Route path="/kylecuss.com/project" element={<Projects />} />
       <Route path="/kylecuss.com/about" element={<About />} />
       <Route path="/kylecuss.com/resume" element={<Resume />} />
       <Route path="/kylecuss.com/contact" element={<Contact />} />

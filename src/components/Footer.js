@@ -1,6 +1,6 @@
 import './Footer.css';
 import React from 'react'
-import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter} from 'react-icons/fa';
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaTwitter} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -14,10 +14,6 @@ const Footer = () => {
                         <p>Canada.</p>
                     </div>
                 </div>
-                <div className='phone'>
-                <h4><FaPhone size={20} style={{color: '#fff', marginRight: '2rem'}}/>
-                1-705-205-0445</h4>
-                </div>
                 <div className='email'>
                 <h4><FaMailBulk size={20} style={{color: '#fff', marginRight: '2rem'}}/>
                 cussprogramming@gmail.com</h4>
@@ -25,7 +21,7 @@ const Footer = () => {
             </div>
             <div className='right'>
                 <h4>About me</h4>
-                <p>This is Kyle Cuss, a Web Developer from Atlantic Canada.  I enjoy taking designs and creating responsive, funtional projects.</p>
+                <p>This is Kyle Cuss, a Game Developer from Atlantic Canada.  I enjoy building new worlds and systems to make engaging and dynamic gaming experiences.</p>
                 <div className='social'>
                     <a href='https://www.linkedin.com/in/kyle-cuss' target='_blank' rel='noreferrer'>
                         <FaLinkedin className='social-icon' size={30} style={{marginRight: '1rem'}}/>

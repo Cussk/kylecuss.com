@@ -1,0 +1,43 @@
+.hero-img-contact {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-img-contact::before{
+    position: absolute;
+    content: '';
+    background: url('../assets/contactbg.jpg');
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-img-contact h1 {
+    font-size: 2.4rem;
+}
+
+.hero-img-contact p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px){
+    .hero-img-contact h1 {
+        font-size: 2rem;
+    }   
+}

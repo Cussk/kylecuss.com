@@ -32,7 +32,7 @@ const NavBar = () => {
         {/* if clicked show nav menu else hide */}
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li><Link to='/kylecuss.com/'>Home</Link></li>
-            <li><Link to='/kylecuss.com/project'>Project</Link></li>
+            <li><Link to='/kylecuss.com/project'>Projects</Link></li>
             <li><Link to='/kylecuss.com/about'>About</Link></li>
             <li><Link to='/kylecuss.com/resume'>Resume</Link></li>
             <li><Link to='/kylecuss.com/contact'>Contact</Link></li>

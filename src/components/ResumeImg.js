@@ -13,4 +13,6 @@ const ResumeImg = () => {
   )
 }
 
+
+
 export default ResumeImg;

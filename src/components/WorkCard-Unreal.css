@@ -1,0 +1,54 @@
+.project-heading-unreal {
+    margin-left: 25%;
+    width: 50%;
+    padding: 4rem 0 2rem 0;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1140px;
+    margin: auto;
+    padding-bottom: 5rem;   
+}
+
+.project-card {
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    border-radius: 1em;
+}
+
+.project-card video {
+    width: 100%;
+}
+
+.project-title {
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.pro-btns-unreal {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.pro-btns .btn {
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 740px){
+    .project-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+
