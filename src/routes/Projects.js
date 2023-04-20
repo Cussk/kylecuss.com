@@ -11,8 +11,8 @@ const Projects = () => {
     <div>
       <NavBar />
       <HeroImg2 heading='PROJECTS' text='Some of my most recent works'/>
-      <WorkUnity />
       <WorkUnreal />
+      <WorkUnity />
       <Work />
       <Footer />
     </div>
