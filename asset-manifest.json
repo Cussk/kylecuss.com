@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kylecuss.com/static/css/main.cbfab474.css",
-    "main.js": "/kylecuss.com/static/js/main.aa2c9e8a.js",
+    "main.js": "/kylecuss.com/static/js/main.d44aa5e3.js",
     "static/media/ARPG-Unity.mp4": "/kylecuss.com/static/media/ARPG-Unity.9456ebfa3c60b5430f94.mp4",
     "static/media/The-Lighthouse.mp4": "/kylecuss.com/static/media/The-Lighthouse.c284d85bc3b6a5c521f3.mp4",
     "static/media/Turn-Based-Strategy-System.mp4": "/kylecuss.com/static/media/Turn-Based-Strategy-System.a8262e912335b7c7add6.mp4",
@@ -27,10 +27,10 @@
     "static/media/UnrealLogo.png": "/kylecuss.com/static/media/UnrealLogo.ec6741ceb920fdd65dee.png",
     "index.html": "/kylecuss.com/index.html",
     "main.cbfab474.css.map": "/kylecuss.com/static/css/main.cbfab474.css.map",
-    "main.aa2c9e8a.js.map": "/kylecuss.com/static/js/main.aa2c9e8a.js.map"
+    "main.d44aa5e3.js.map": "/kylecuss.com/static/js/main.d44aa5e3.js.map"
   },
   "entrypoints": [
     "static/css/main.cbfab474.css",
-    "static/js/main.aa2c9e8a.js"
+    "static/js/main.d44aa5e3.js"
   ]
 }
