@@ -4,7 +4,7 @@ import pro5 from '../assets/kanban.png';
 import pro6 from '../assets/mern-social.png';
 
 //array with data for project cards
-const ProjectCardData = [
+const ProjectCardData = [  
     {
         imgsrc: pro1,
         title: 'Skills for Hire Project',

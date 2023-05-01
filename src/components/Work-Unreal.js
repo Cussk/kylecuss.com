@@ -16,6 +16,7 @@ const WorkUnreal = () => {
                     vidsrc={val.vidsrc}
                     title={val.title}
                     text={val.text}
+                    play={val.play}
                     source={val.source}
                 />
             );
