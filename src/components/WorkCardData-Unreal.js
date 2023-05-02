@@ -3,13 +3,6 @@ import pro2 from '../assets/Videos/FPS.mp4';
 
 //array with data for project cards
 const ProjectCardDataUnreal = [
-    {
-        //vidsrc:
-        title: 'ARPG (In progress)',
-        text: "This project is an ARPG project that features building a C++ Game Framework, combining C++ and Blueprint for flexible game logic, Unreal’s Gameplay Systems, Event-based Programming Principles, AI Programming",
-        play: "https://github.com/Cussk/ActionRPG-UE5",
-        source: 'https://github.com/Cussk/ActionRPG-UE5'
-    },
 
     {
         vidsrc: pro2,
