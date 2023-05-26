@@ -14,8 +14,9 @@
 }
 
 .project-card-certs {
-    background: #000;
+    background: #1a1919;
     padding: 1.2rem 1rem;
+    border-radius: 1em;
 }
 
 .project-card img {
@@ -40,7 +41,7 @@
     padding: 0.5rem 0;
 }
 
-.pro-btns .btn {
+.pro-btns-certs .btn {
     padding: 0.5rem 1rem;
 }
 
