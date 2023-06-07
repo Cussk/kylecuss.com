@@ -1,10 +1,17 @@
-//import pro1 from '../assets/Videos/Obstacle-Assault.mp4';
+import pro1 from '../assets/Videos/ActionFramework-Actions.mp4';
 import pro2 from '../assets/Videos/FPS.mp4';
 import pro3 from '../assets/Videos/SoulslikeCombat.mp4';
 
 //array with data for project cards
 const ProjectCardDataUnreal = [
 
+    {
+        vidsrc: pro1,
+        title: 'Action Gameplay Framework',
+        text: "This project is an Action project that features building C++ Game Framework, Combining C++ and Blueprint for flexible game logic, Unreal’s Gameplay Systems, Event-based Programming Principles, AI Programming (Behavior Trees, Blackboard, EQS, Custom C++ Nodes), Multiplayer Networking (Replication architecture, low-bandwidth, best practices), Saving Game State to Disk (Saving/loading player progression and world state), Performance Profiling Tools (Unreal Insights & in-editor tools), User Interfaces with UMG (using Event-based Principles), Async Asset Loading & Soft References",
+        play: "https://cussk.itch.io/action-gameplay-framework",
+        source: 'https://github.com/Cussk/ARPG-Unreal-Cpp'
+    },
 
     {
         vidsrc: pro3,
@@ -21,14 +28,6 @@ const ProjectCardDataUnreal = [
         play: "https://cussk.itch.io/fps-ue51-blueprints",
         source: 'https://github.com/Cussk/FPS-Blueprints'
     },    
-
-    {
-        //vidsrc:
-        title: 'Action Gameplay Framework (In progress)',
-        text: "This project is an Action project that features building C++ Game Framework, Combining C++ and Blueprint for flexible game logic, Unreal’s Gameplay Systems, Event-based Programming Principles, AI Programming (Behavior Trees, Blackboard, EQS, Custom C++ Nodes), Multiplayer Networking (Replication architecture, low-bandwidth, best practices), Saving Game State to Disk (Saving/loading player progression and world state), Performance Profiling Tools (Unreal Insights & in-editor tools), User Interfaces with UMG (using Event-based Principles), Async Asset Loading & Soft References",
-        play: "https://github.com/Cussk/ARPG-Unreal-Cpp",
-        source: 'https://github.com/Cussk/ARPG-Unreal-Cpp'
-    },
 ];
 
 export default ProjectCardDataUnreal;
