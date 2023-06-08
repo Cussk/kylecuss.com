@@ -4,7 +4,7 @@ import React from 'react';
 //takes WorkCardData array as props
 const WorkCardShowcase = (props) => {
   return (
-    <div className='project-card'>
+    <div className='project-card-main'>
                 <video controls src={props.vidsrc} alt=''/>
                 <h2 className='project-title'>{props.title}</h2>
                 <div className='pro-details'>

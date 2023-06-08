@@ -1,31 +1,34 @@
-.project-heading-unity {
-    margin-left: 25%;
-    width: 50%;
+.project-heading-showcase {
+   text-align: center;
     padding: 4rem 0 2rem 0;
+    font-size: 5rem;
 }
 
-.project-container {
+.project-container-main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto;
     gap: 40px;
-    max-width: 1140px;
+    max-width: 36rem;
     margin: auto;
-    padding-bottom: 5rem;   
+    padding-bottom: 0.5rem;  
+
 }
 
-.project-card {
+.project-card-main {
     background: #1a1919;
     padding: 1.2rem 1rem;
     border-radius: 1em;
+    
 }
 
-.project-card video {
+.project-card-main video {
     width: 100%;
 }
 
 .project-title {
     color: #fff;
     padding: 1rem 0;
+    text-align: center;
 }
 
 .pro-details p{
