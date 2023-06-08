@@ -4,7 +4,7 @@ import React from 'react';
 //takes WorkCardData array as props
 const UnityCertsCard = (props) => {
   return (
-    <div className='project-card-certs'>
+    <div className='project-card'>
                 <img src={props.imgsrc} alt=''/>
                 <h2 className='project-title-certs'>{props.title}</h2>
                 <div className='pro-details'>
