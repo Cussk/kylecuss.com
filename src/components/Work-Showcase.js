@@ -22,7 +22,7 @@ const WorkShowcase = () => {
                     source={val.source}
                 />
             );  
-        })},
+        })}
         </div>
         <div className='project-container'>
             {WorkCardDataShowcaseSub.map((val, ind) => {
@@ -34,7 +34,7 @@ const WorkShowcase = () => {
                     text={val.text}
                 />
             );  
-        })},
+        })}
         </div>
     </div>
   )
