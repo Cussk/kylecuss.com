@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kylecuss.com/static/css/main.27f4e826.css",
-    "main.js": "/kylecuss.com/static/js/main.3252e93d.js",
+    "main.js": "/kylecuss.com/static/js/main.01e98109.js",
     "static/media/SoulslikeCombat.mp4": "/kylecuss.com/static/media/SoulslikeCombat.21092a01d167759ef05c.mp4",
     "static/media/ActionFramework-Actions.mp4": "/kylecuss.com/static/media/ActionFramework-Actions.56b79d37880e286b53a2.mp4",
     "static/media/Soulslike-AI.mp4": "/kylecuss.com/static/media/Soulslike-AI.5feb674f0e02d88312d7.mp4",
@@ -32,10 +32,10 @@
     "static/media/UnrealLogo.png": "/kylecuss.com/static/media/UnrealLogo.ec6741ceb920fdd65dee.png",
     "index.html": "/kylecuss.com/index.html",
     "main.27f4e826.css.map": "/kylecuss.com/static/css/main.27f4e826.css.map",
-    "main.3252e93d.js.map": "/kylecuss.com/static/js/main.3252e93d.js.map"
+    "main.01e98109.js.map": "/kylecuss.com/static/js/main.01e98109.js.map"
   },
   "entrypoints": [
     "static/css/main.27f4e826.css",
-    "static/js/main.3252e93d.js"
+    "static/js/main.01e98109.js"
   ]
 }
