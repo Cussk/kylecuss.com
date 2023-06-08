@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/kylecuss.com/static/css/main.23daf552.css",
-    "main.js": "/kylecuss.com/static/js/main.21cc7884.js",
+    "main.css": "/kylecuss.com/static/css/main.993bcb47.css",
+    "main.js": "/kylecuss.com/static/js/main.c8372ee3.js",
     "static/media/SoulslikeCombat.mp4": "/kylecuss.com/static/media/SoulslikeCombat.21092a01d167759ef05c.mp4",
+    "static/media/ActionFramework-Actions.mp4": "/kylecuss.com/static/media/ActionFramework-Actions.56b79d37880e286b53a2.mp4",
     "static/media/ARPG-Unity.mp4": "/kylecuss.com/static/media/ARPG-Unity.9456ebfa3c60b5430f94.mp4",
     "static/media/The-Lighthouse.mp4": "/kylecuss.com/static/media/The-Lighthouse.c284d85bc3b6a5c521f3.mp4",
     "static/media/Turn-Based-Strategy-System.mp4": "/kylecuss.com/static/media/Turn-Based-Strategy-System.a8262e912335b7c7add6.mp4",
     "static/media/ActionFramework.mp4": "/kylecuss.com/static/media/ActionFramework.92f46b63393dac5caf86.mp4",
     "static/media/FPS.mp4": "/kylecuss.com/static/media/FPS.6cf437956be212d65587.mp4",
+    "static/media/ActionFramework-AI.mp4": "/kylecuss.com/static/media/ActionFramework-AI.fe03b25f7b16f2a1c12c.mp4",
+    "static/media/ActionFramework-Multiplayer.mp4": "/kylecuss.com/static/media/ActionFramework-Multiplayer.78f5e3dc5c80b3486562.mp4",
     "static/media/projectsbg.jpg": "/kylecuss.com/static/media/projectsbg.0283ce8973207a2c67a2.jpg",
     "static/media/e-sports.jpg": "/kylecuss.com/static/media/e-sports.1740b3a51ac32206d262.jpg",
     "static/media/contactbg.jpg": "/kylecuss.com/static/media/contactbg.41f61d005e89434247f0.jpg",
@@ -26,11 +29,11 @@
     "static/media/Unity.png": "/kylecuss.com/static/media/Unity.961f869b6c6aa56598ef.png",
     "static/media/UnrealLogo.png": "/kylecuss.com/static/media/UnrealLogo.ec6741ceb920fdd65dee.png",
     "index.html": "/kylecuss.com/index.html",
-    "main.23daf552.css.map": "/kylecuss.com/static/css/main.23daf552.css.map",
-    "main.21cc7884.js.map": "/kylecuss.com/static/js/main.21cc7884.js.map"
+    "main.993bcb47.css.map": "/kylecuss.com/static/css/main.993bcb47.css.map",
+    "main.c8372ee3.js.map": "/kylecuss.com/static/js/main.c8372ee3.js.map"
   },
   "entrypoints": [
-    "static/css/main.23daf552.css",
-    "static/js/main.21cc7884.js"
+    "static/css/main.993bcb47.css",
+    "static/js/main.c8372ee3.js"
   ]
 }
