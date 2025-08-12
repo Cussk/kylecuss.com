@@ -14,10 +14,12 @@ const WorkUnity = () => {
                 <WorkCardUnity
                     key={ind}
                     vidsrc={val.vidsrc}
+                    imgsrc={val.imgsrc}
                     title={val.title}
                     text={val.text}
                     play={val.play}
                     source={val.source}
+                    website={val.website}
                 />
             );
         })}

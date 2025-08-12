@@ -23,6 +23,12 @@
     width: 100%;
 }
 
+.project-card-image {
+  width: 100%;     
+  height: auto;    
+
+}
+
 .project-title {
     color: #fff;
     padding: 1rem 0;
@@ -36,13 +42,17 @@
 }
 
 .pro-btns {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
+  display: flex;
+  gap: 3rem; /* adds horizontal space between buttons */
+  padding: 0.5rem 0;
 }
 
 .pro-btns .btn {
     padding: 0.5rem 1rem;
+}
+
+.pro-btns .btn {
+    justify-content: center;
 }
 
 @media screen and (max-width: 740px){

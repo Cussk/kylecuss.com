@@ -1,10 +1,17 @@
 import pro1 from '../assets/Videos/Turn-Based-Strategy-System.mp4';
-import pro2 from '../assets/Videos/The-Lighthouse.mp4';
+import pro2 from '../assets/WaffleSmash.png';
 import pro3 from '../assets/Videos/ARPG-Unity.mp4';
 
 
 //array with data for project cards
 const ProjectCardDataUnity = [
+    {
+        imgsrc: pro2,
+        title: 'Waffle Smash: Diner Rush',
+        text: "Game Engineer on Waffle Smash: Diner Rush (Android/iOS). Contributed to core gameplay, UI, and tools development for a match-3 game with diner-building features. Integrated Unity Addressables for on-demand asset delivery, cutting download size and optimizing memory. Developed data-driven scene and tutorial systems with Scriptable Objects and dependency injection. Supported Android builds and publishing, while collaborating closely with design and art teams.",
+        website: 'https://www.wafflesmash.com/',
+    },
+
     {
         vidsrc: pro3,
         title: 'ARPG: Core Combat System',
@@ -19,16 +26,7 @@ const ProjectCardDataUnity = [
         text: "This project is a Turn-based strategy system similar to FF Tactics. It is grid based and has destructible object, different player skills, interactable objects, A* pathfinding and basic Enemy AI. This project taught me the use of C# Singletons, Generics, Custom Structs and Events.",
         play: 'https://play.unity.com/mg/other/turn-based-strategy-prototype',
         source: 'https://github.com/Cussk/turnbased-strategy-system'
-    },
-
-    {
-        vidsrc: pro2,
-        title: 'The Lighthouse',
-        text: "This project takes all the principles taught in both the Junior Programmer and Creative Core learning pathways through Unity. It is a first-person puzzle/walking simulator level built from the ground up using art assets from Unity's Asset Store and assets provided in learning path courses. Initially graybox porotype taken to complete level. All the scripts were written with C#.",
-        play: 'https://play.unity.com/mg/other/the-lighthouse-4',
-        source: 'https://github.com/Cussk/The-Lighthouse'
-    },
-    
+    }   
 ];
 
 export default ProjectCardDataUnity;
