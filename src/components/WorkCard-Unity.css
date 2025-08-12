@@ -10,13 +10,18 @@
     gap: 40px;
     max-width: 1140px;
     margin: auto;
-    padding-bottom: 5rem;   
+    padding-bottom: 5rem;
+    align-items: stretch; /* ensures cards stretch equally if needed */
 }
 
 .project-card {
     background: #1a1919;
     padding: 1.2rem 1rem;
     border-radius: 1em;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* optional: card fills grid cell height */
 }
 
 .project-card video {
@@ -24,9 +29,8 @@
 }
 
 .project-card-image {
-  width: 100%;     
-  height: auto;    
-
+    width: 100%;
+    height: auto;
 }
 
 .project-title {
@@ -35,23 +39,29 @@
     text-align: center;
 }
 
-.pro-details p{
+.pro-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-details p {
+    flex-grow: 1;
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
+    margin: 0;
 }
 
 .pro-btns {
-  display: flex;
-  gap: 3rem; /* adds horizontal space between buttons */
-  padding: 0.5rem 0;
+    margin-top: auto; /* push buttons to bottom */
+    display: flex;
+    gap: 3rem;
+    padding: 0.5rem 0 0 0; /* only top padding */
 }
 
 .pro-btns .btn {
     padding: 0.5rem 1rem;
-}
-
-.pro-btns .btn {
     justify-content: center;
 }
 
@@ -62,4 +72,3 @@
         grid-template-columns: 1fr;
     }
 }
-
