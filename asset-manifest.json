@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/kylecuss.com/static/css/main.27f4e826.css",
-    "main.js": "/kylecuss.com/static/js/main.01e98109.js",
+    "main.css": "/kylecuss.com/static/css/main.209757cc.css",
+    "main.js": "/kylecuss.com/static/js/main.8400b30a.js",
     "static/media/SoulslikeCombat.mp4": "/kylecuss.com/static/media/SoulslikeCombat.21092a01d167759ef05c.mp4",
     "static/media/ActionFramework-Actions.mp4": "/kylecuss.com/static/media/ActionFramework-Actions.56b79d37880e286b53a2.mp4",
     "static/media/Soulslike-AI.mp4": "/kylecuss.com/static/media/Soulslike-AI.5feb674f0e02d88312d7.mp4",
     "static/media/ARPG-Unity.mp4": "/kylecuss.com/static/media/ARPG-Unity.9456ebfa3c60b5430f94.mp4",
-    "static/media/The-Lighthouse.mp4": "/kylecuss.com/static/media/The-Lighthouse.c284d85bc3b6a5c521f3.mp4",
     "static/media/Turn-Based-Strategy-System.mp4": "/kylecuss.com/static/media/Turn-Based-Strategy-System.a8262e912335b7c7add6.mp4",
     "static/media/ActionFramework.mp4": "/kylecuss.com/static/media/ActionFramework.92f46b63393dac5caf86.mp4",
     "static/media/FPS.mp4": "/kylecuss.com/static/media/FPS.6cf437956be212d65587.mp4",
@@ -17,13 +16,11 @@
     "static/media/e-sports.jpg": "/kylecuss.com/static/media/e-sports.1740b3a51ac32206d262.jpg",
     "static/media/contactbg.jpg": "/kylecuss.com/static/media/contactbg.41f61d005e89434247f0.jpg",
     "static/media/aboutbg.jpg": "/kylecuss.com/static/media/aboutbg.33ef8557cd6a929fc6d1.jpg",
-    "static/media/skills-project.png": "/kylecuss.com/static/media/skills-project.a99640e9013e982c777b.png",
-    "static/media/Lyriks.png": "/kylecuss.com/static/media/Lyriks.a76f3ac7ad455046a57f.png",
-    "static/media/Resume2.png": "/kylecuss.com/static/media/Resume2.e3bedcb35efdeb12c6bb.png",
+    "static/media/WaffleSmash.png": "/kylecuss.com/static/media/WaffleSmash.3516d80257783db93da9.png",
+    "static/media/Resume1.png": "/kylecuss.com/static/media/Resume1.e18c3ee48981478bc2ba.png",
     "static/media/desk.jpg": "/kylecuss.com/static/media/desk.8a5e788f5acfa623fe67.jpg",
     "static/media/code.jpg": "/kylecuss.com/static/media/code.0e4bbe2078644abd3965.jpg",
-    "static/media/Resume1.png": "/kylecuss.com/static/media/Resume1.961bd09a0f09526e8d4c.png",
-    "static/media/kanban.png": "/kylecuss.com/static/media/kanban.d65ebd82218dd152a6b2.png",
+    "static/media/Resume2.png": "/kylecuss.com/static/media/Resume2.37d10f907694cee650d3.png",
     "static/media/unity-junior-programmer.png": "/kylecuss.com/static/media/unity-junior-programmer.6f9b0967e3badf227c50.png",
     "static/media/unity-essentials-pathway.png": "/kylecuss.com/static/media/unity-essentials-pathway.a047e5a2139e18420779.png",
     "static/media/unity-creative-core.png": "/kylecuss.com/static/media/unity-creative-core.5f15c8a2dfc1e858c27a.png",
@@ -31,11 +28,11 @@
     "static/media/Unity.png": "/kylecuss.com/static/media/Unity.961f869b6c6aa56598ef.png",
     "static/media/UnrealLogo.png": "/kylecuss.com/static/media/UnrealLogo.ec6741ceb920fdd65dee.png",
     "index.html": "/kylecuss.com/index.html",
-    "main.27f4e826.css.map": "/kylecuss.com/static/css/main.27f4e826.css.map",
-    "main.01e98109.js.map": "/kylecuss.com/static/js/main.01e98109.js.map"
+    "main.209757cc.css.map": "/kylecuss.com/static/css/main.209757cc.css.map",
+    "main.8400b30a.js.map": "/kylecuss.com/static/js/main.8400b30a.js.map"
   },
   "entrypoints": [
-    "static/css/main.27f4e826.css",
-    "static/js/main.01e98109.js"
+    "static/css/main.209757cc.css",
+    "static/js/main.8400b30a.js"
   ]
 }
