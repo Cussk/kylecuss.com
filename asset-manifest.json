@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kylecuss.com/static/css/main.209757cc.css",
-    "main.js": "/kylecuss.com/static/js/main.31463735.js",
+    "main.js": "/kylecuss.com/static/js/main.6f24012f.js",
     "static/media/SoulslikeCombat.mp4": "/kylecuss.com/static/media/SoulslikeCombat.21092a01d167759ef05c.mp4",
     "static/media/ActionFramework-Actions.mp4": "/kylecuss.com/static/media/ActionFramework-Actions.56b79d37880e286b53a2.mp4",
     "static/media/Soulslike-AI.mp4": "/kylecuss.com/static/media/Soulslike-AI.5feb674f0e02d88312d7.mp4",
@@ -20,7 +20,7 @@
     "static/media/Resume1.png": "/kylecuss.com/static/media/Resume1.e18c3ee48981478bc2ba.png",
     "static/media/desk.jpg": "/kylecuss.com/static/media/desk.8a5e788f5acfa623fe67.jpg",
     "static/media/code.jpg": "/kylecuss.com/static/media/code.0e4bbe2078644abd3965.jpg",
-    "static/media/Resume2.png": "/kylecuss.com/static/media/Resume2.37d10f907694cee650d3.png",
+    "static/media/Resume2.png": "/kylecuss.com/static/media/Resume2.ee2987471edf5ecbf2c1.png",
     "static/media/unity-junior-programmer.png": "/kylecuss.com/static/media/unity-junior-programmer.6f9b0967e3badf227c50.png",
     "static/media/unity-essentials-pathway.png": "/kylecuss.com/static/media/unity-essentials-pathway.a047e5a2139e18420779.png",
     "static/media/unity-creative-core.png": "/kylecuss.com/static/media/unity-creative-core.5f15c8a2dfc1e858c27a.png",
@@ -29,10 +29,10 @@
     "static/media/UnrealLogo.png": "/kylecuss.com/static/media/UnrealLogo.ec6741ceb920fdd65dee.png",
     "index.html": "/kylecuss.com/index.html",
     "main.209757cc.css.map": "/kylecuss.com/static/css/main.209757cc.css.map",
-    "main.31463735.js.map": "/kylecuss.com/static/js/main.31463735.js.map"
+    "main.6f24012f.js.map": "/kylecuss.com/static/js/main.6f24012f.js.map"
   },
   "entrypoints": [
     "static/css/main.209757cc.css",
-    "static/js/main.31463735.js"
+    "static/js/main.6f24012f.js"
   ]
 }
