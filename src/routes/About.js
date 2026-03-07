@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div>
       <NavBar />
-      <HeroImg3 heading='ABOUT' text='I am a Game Developer dedicated to continously learning and honing my craft'/>
+      <HeroImg3 heading='ABOUT' text='Designing the systems that bring games to life — gameplay, AI, and multiplayer.'/>
       <AboutContent />
       <UnityCerts />
       <Footer />
