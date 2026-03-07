@@ -13,7 +13,7 @@ const HeroImg = () => {
             <p>HI, I'M KYLE CUSS</p>
             <h1>Gameplay/Systems Engineer</h1>
             <div>
-                <Link to='/kylecuss.com/project' className='btn'>Projects</Link>
+                <Link to='/kylecuss.com/case-studies' className='btn'>Case Studies</Link>
                 <Link to='/kylecuss.com/contact' className='btn btn-light'>Contact</Link>
             </div>
         </div>

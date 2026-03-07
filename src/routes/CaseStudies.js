@@ -7,7 +7,7 @@ import WorkUnity from  '../components/Work-Unity';
 import WorkUnreal from '../components/Work-Unreal';
 // import WorkOtherEngines from '../components/Work-OtherEngines'
 
-const Projects = () => {
+const CaseStudies = () => {
   return (
     <div>
       <NavBar />
@@ -19,4 +19,4 @@ const Projects = () => {
   )
 }
 
-export default Projects;
+export default CaseStudies;

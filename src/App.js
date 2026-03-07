@@ -7,7 +7,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
 import Home from "./routes/Home";
-import Projects from "./routes/Projects";
+import CaseStudies from "./routes/CaseStudies";
 import Resume from "./routes/Resume";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
 
       <Routes>
         <Route path="/kylecuss.com/" element={<Home />} />
-        <Route path="/kylecuss.com/case-studies" element={<Projects />} />
+        <Route path="/kylecuss.com/case-studies" element={<CaseStudies />} />
         <Route path="/kylecuss.com/about" element={<About />} />
         <Route path="/kylecuss.com/resume" element={<Resume />} />
         <Route path="/kylecuss.com/contact" element={<Contact />} />
