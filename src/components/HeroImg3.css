@@ -7,21 +7,27 @@
 }
 
 .hero-img-about::before {
-    position: absolute;
+   position: absolute;
     content: '';
     inset: 0;
 
     background:
-        linear-gradient(90deg, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.72) 40%, rgba(0,0,0,0.55) 100%),
+        linear-gradient(
+            90deg,
+            rgba(0,0,0,0.75) 0%,
+            rgba(0,0,0,0.55) 38%,
+            rgba(0,0,0,0.30) 70%,
+            rgba(0,0,0,0.15) 100%
+        ),
         url('../assets/aboutbg.png');
 
-    background-size: 120% auto;
-    background-position: 75% center;
+    background-size: cover;
+    background-position: center right;
     background-repeat: no-repeat;
 
-    filter: contrast(1.08) brightness(0.9);
+    filter: contrast(1.05) brightness(1);
 
-    z-index: -1;
+    z-index: -2;
 }
 
 .hero-img-about::after {

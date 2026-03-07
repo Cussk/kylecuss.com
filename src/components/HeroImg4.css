@@ -21,11 +21,11 @@
         ),
         url('../assets/contactbg.png');
 
-    background-size: 115% auto;
-    background-position: 72% center;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 
-    filter: contrast(1.05) brightness(1.0);
+    filter: contrast(1.05) brightness(1);
 
     z-index: -2;
 }

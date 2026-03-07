@@ -1,6 +1,7 @@
 import './Footer.css';
 import React from 'react';
 import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaTwitter } from 'react-icons/fa';
+import UpworkIcon from '../assets/upwork.svg';
 
 const Footer = () => {
   return (
@@ -33,6 +34,10 @@ const Footer = () => {
           <div className='social'>
             <a href='https://www.linkedin.com/in/kyle-cuss' target='_blank' rel='noreferrer' aria-label='LinkedIn'>
               <FaLinkedin className='social-icon' size={26} />
+            </a>
+
+            <a href="https://www.upwork.com/freelancers/~01d1de0afde431a206?mp_source=share" target="_blank" rel="noreferrer">
+              <img src={UpworkIcon} className="social-icon upwork-icon" alt="Upwork"/>
             </a>
 
             <a href='https://github.com/Cussk' target='_blank' rel='noreferrer' aria-label='GitHub'>
