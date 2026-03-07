@@ -1,61 +1,114 @@
 .footer {
     width: 100%;
-    padding: 6rem 0;
-    background-color: rgba(19, 19, 19, 0.8);
+    padding: 5rem 2rem;
+    background: linear-gradient(180deg, rgba(14, 14, 14, 0.92) 0%, rgba(10, 10, 10, 0.98) 100%);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .footer-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
     max-width: 1140px;
-    margin: auto;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
 }
 
-.left {
+.footer-left,
+.footer-right {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
-    padding: 1rem;
+    gap: 1.5rem;
 }
 
-.location{
+.footer-item {
     display: flex;
-    margin-bottom: 0.8rem;
+    align-items: flex-start;
+    gap: 1.25rem;
 }
 
-.location p {
-    line-height: 30px;
+.footer-item__icon {
+    color: #fff;
+    flex-shrink: 0;
+    margin-top: 0.2rem;
 }
 
-.right {
-   display: flex;
-   flex-direction: column;
-   height: 100%;
-   max-width: 100%;
-   padding: 1rem; 
+.footer-item p {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #d2d2d2;
+}
+
+.footer-email {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #fff;
+    transition: color 0.2s ease;
+}
+
+.footer-email:hover {
+    color: #8df75a;
+}
+
+.footer-title {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.footer-copy {
+    margin: 0;
+    max-width: 560px;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #d2d2d2;
 }
 
 .social {
-    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.25rem;
+}
+
+.social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon {
+    color: #fff;
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
 }
 
 .social-icon:hover {
-    color: #39FF14;
+    color: #8df75a;
+    transform: translateY(-2px);
 }
 
-h4 {
-    font-size: 1.2rem;
-    padding-bottom: 0.7rem;
-}
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 4rem 1.25rem;
+    }
 
-p {
-   font-size: 1.2rem; 
-}
-
-@media screen and (max-width: 640px){
     .footer-container {
         grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .footer-title {
+        font-size: 1.35rem;
+    }
+
+    .footer-item p,
+    .footer-email,
+    .footer-copy {
+        font-size: 1rem;
     }
 }

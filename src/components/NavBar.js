@@ -1,51 +1,71 @@
 import './NavBar.css';
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
-import {FaBars, FaTimes} from 'react-icons/fa';
+import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
+  const [click, setClick] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
-    //hamburger icon state change
-    const [click, setClick] = useState(false);
-    //cycle clicked
-    const handleClick = () => setClick(!click);
+  const handleClick = () => setClick(!click);
+  const closeMenu = () => setClick(false);
 
-    //change color state
-    const [color, setColor] = useState(false);
-    //when scrolling Y axis more than 100px change color state
+  useEffect(() => {
     const changeColor = () => {
-        if (window.scrollY >= 100) {
-            setColor(true);
-        } else {
-            setColor(false);
-        }
+      setScrolled(window.scrollY >= 100);
     };
 
-    //listens for a scroll, flips color state true or false when sroll
-    window.addEventListener("scroll", changeColor);
+    window.addEventListener('scroll', changeColor);
+    changeColor();
 
-    return (
-    <div className={color ? 'header header-bg' : 'header'}>
-        <Link to='/kylecuss.com/'>
-            <h1>Kyle Cuss</h1>
-        </Link>
-        {/* if clicked show nav menu else hide */}
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li><Link to='/kylecuss.com/'>Home</Link></li>
-            <li><Link to='/kylecuss.com/case-studies'>Case Studies</Link></li>
-            <li><Link to='/kylecuss.com/about'>About</Link></li>
-            <li><Link to='/kylecuss.com/resume'>Resume</Link></li>
-            <li><Link to='/kylecuss.com/contact'>Contact</Link></li>
-        </ul>
-        <div className='hamburger' onClick={handleClick}>
-            {/* if clicked show X icon else show hamburger icon*/}
-            {click ? (
-            <FaTimes size={20} style={{color: "#fff"}}/>) 
-            : (
-            <FaBars size={20} style={{color: "#fff"}}/>)}
-        </div>
-    </div>
-  )
-}
+    return () => window.removeEventListener('scroll', changeColor);
+  }, []);
+
+  return (
+    <header className={scrolled ? 'header header-bg' : 'header'}>
+      <NavLink to='/kylecuss.com/' className='header__brand' onClick={closeMenu}>
+        <h1>Kyle Cuss</h1>
+      </NavLink>
+
+      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <li>
+          <NavLink to='/kylecuss.com/' end onClick={closeMenu}>
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to='/kylecuss.com/case-studies' onClick={closeMenu}>
+            Case Studies
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to='/kylecuss.com/about' onClick={closeMenu}>
+            About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to='/kylecuss.com/resume' onClick={closeMenu}>
+            Resume
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to='/kylecuss.com/contact' onClick={closeMenu}>
+            Contact
+          </NavLink>
+        </li>
+      </ul>
+
+      <button
+        type='button'
+        className='hamburger'
+        onClick={handleClick}
+        aria-label={click ? 'Close navigation menu' : 'Open navigation menu'}
+        aria-expanded={click}
+      >
+        {click ? <FaTimes size={20} /> : <FaBars size={20} />}
+      </button>
+    </header>
+  );
+};
 
 export default NavBar;
