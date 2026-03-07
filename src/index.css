@@ -1,44 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-* {
+/* ------------------------- */
+/* Global Reset / Base Setup */
+/* ------------------------- */
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Outfit', sans-serif;
-  ;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
   background: #000;
+  color: #fff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h4, p, a {
+
+/* ------------------------- */
+/* Typography                */
+/* ------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  line-height: 1.1;
+}
+
+p {
+  color: #d2d2d2;
+}
+
+a {
   color: #fff;
   text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #8df75a;
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
+  padding: 0;
 }
 
+button, a {
+  transition: all 0.2s ease;
+}
+
+/* ------------------------- */
+/* Layout Helpers            */
+/* ------------------------- */
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+
+/* ------------------------- */
+/* Buttons                   */
+/* ------------------------- */
+
 .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   padding: 12px 32px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  background: #39FF14;
-  color: #000;
-  border: 1px solid #fff;
+  font-size: 0.95rem;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  background: #8df75a;
+  color: #000;
+
+  border: 1px solid #8df75a;
+  border-radius: 4px;
+
   cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  background: transparent;
+  color: #8df75a;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.45);
+}
+
+.btn:active {
+  transform: translateY(0);
 }
 
 .btn-light {
   background: transparent;
   color: #fff;
+  border: 1px solid #8df75a;
 }
 
-.btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-  color: #fff;
-  transition: 0.3s;
+.btn-light:hover {
+  background: #8df75a;
+  color: #000;
 }
