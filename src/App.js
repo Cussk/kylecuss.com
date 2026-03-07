@@ -12,7 +12,7 @@ function App() {
     <>
     <Routes>
       <Route path="/kylecuss.com/" element={<Home />} />
-      <Route path="/kylecuss.com/project" element={<Projects />} />
+      <Route path="/kylecuss.com/case-studies" element={<Projects />} />
       <Route path="/kylecuss.com/about" element={<About />} />
       <Route path="/kylecuss.com/resume" element={<Resume />} />
       <Route path="/kylecuss.com/contact" element={<Contact />} />

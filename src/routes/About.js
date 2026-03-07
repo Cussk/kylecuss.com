@@ -1,20 +1,22 @@
-import React from 'react'
+import React from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import HeroImg3 from '../components/HeroImg3';
 import AboutContent from '../components/AboutContent';
-import UnityCerts from '../components/UnityCerts';
 
 const About = () => {
   return (
     <div>
       <NavBar />
-      <HeroImg3 heading='ABOUT' text='Designing the systems that bring games to life — gameplay, AI, and multiplayer.'/>
+      <HeroImg3
+        eyebrow="ABOUT"
+        heading="Gameplay & Systems Engineer"
+        text="I build scalable gameplay systems, AI, and multiplayer experiences in Unreal Engine and Unity."
+      />
       <AboutContent />
-      <UnityCerts />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default About;

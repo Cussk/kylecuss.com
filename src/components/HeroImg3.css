@@ -1,43 +1,94 @@
 .hero-img-about {
     position: relative;
     width: 100%;
-    height: 60vh;
-    background: rgba(0, 0, 0, 0.5);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
 }
 
-.hero-img-about::before{
+.hero-img-about::before {
     position: absolute;
     content: '';
-    background: url('../assets/aboutbg.jpg');
-    background-size: cover;
-    background-position: center top;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+    inset: 0;
+
+    background:
+        linear-gradient(90deg, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.72) 40%, rgba(0,0,0,0.55) 100%),
+        url('../assets/aboutbg.png');
+
+    background-size: 120% auto;
+    background-position: 75% center;
+    background-repeat: no-repeat;
+
+    filter: contrast(1.08) brightness(0.9);
+
     z-index: -1;
 }
 
-.heading {
+.hero-img-about::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0) 72%,
+            rgba(0, 0, 0, 0.35) 84%,
+            rgba(0, 0, 0, 0.75) 94%,
+            rgba(0, 0, 0, 1) 100%
+        );
+    pointer-events: none;
+    z-index: -1;
+}
+
+.hero-img-about__overlay {
+    width: 100%;
+    padding: 6rem 2rem;
+}
+
+.hero-img-about__content {
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
 }
 
-.hero-img-about h1 {
-    font-size: 2.4rem;
+.hero-img-about__eyebrow {
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: #8df75a;
+    margin-bottom: 1rem;
 }
 
-.hero-img-about p {
-    font-size: 1.4rem;
-    text-align: center;
+.hero-img-about__title {
+    font-size: clamp(2.8rem, 5vw, 5rem);
+    line-height: 1.05;
+    margin-bottom: 1rem;
+    max-width: 700px;
 }
 
-@media screen and (max-width: 640px){
-    .hero-img-about h1 {
-        font-size: 2rem;
-    }   
+.hero-img-about__subtitle {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #d6d6d6;
+    max-width: 720px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-img-about {
+        min-height: 60vh;
+    }
+
+    .hero-img-about__overlay {
+        padding: 5rem 1.25rem 3.5rem;
+    }
+
+    .hero-img-about__subtitle {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
 }
