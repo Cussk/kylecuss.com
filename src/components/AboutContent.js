@@ -54,7 +54,7 @@ const AboutContent = () => {
               <span className='about-card__label'>Core Focus</span>
               <ul>
                 <li>Gameplay systems and technical architecture</li>
-                <li>AI behaviors and game-mode logic</li>
+                <li>AI behaviors and decision systems</li>
                 <li>Multiplayer features and replication flow</li>
               </ul>
             </div>
@@ -71,6 +71,7 @@ const AboutContent = () => {
             <div className='about-card__block'>
               <span className='about-card__label'>Approach</span>
               <ul>
+                <li>Data-driven gameplay architecture</li>
                 <li>Modular, scalable systems</li>
                 <li>Design-aware engineering</li>
                 <li>Player-first problem solving</li>
