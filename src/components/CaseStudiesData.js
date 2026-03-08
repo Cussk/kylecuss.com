@@ -10,26 +10,28 @@ const CaseStudiesData = [
   {
     id: 1,
     slug: 'bedroom-brawl-multiplayer-architecture',
+    navLabel: 'Architecture',
     featured: true,
     tag: 'Unreal Engine',
     logo: unrealLogo,
+    logoType: 'icon',
     image: bbArchImg,
-    caption:
-      "Multiplayer match showcasing subsystem-driven gameplay systems including objectives, scoring, and player progression.",
     title: 'Multiplayer Gameplay Architecture in Unreal Engine',
     subtitle:
-      'Designing modular, data-driven gameplay systems for multiple game modes, shared progression, AI behaviors, and multiplayer state management.',
+      "Designing modular multiplayer gameplay architecture using Unreal subsystems, replication layers, and data-driven systems to support multiple game modes.",
+    caption:
+      "Live multiplayer match running subsystem-driven gameplay systems including objectives, scoring, and replicated player progression.",
     metrics: [
-      { value: 'C++', label: 'Core Tech' },
-      { value: 'MP', label: 'Multiplayer' },
-      { value: 'Subsystems', label: 'Architecture' },
-      { value: 'Replication', label: 'Focus' },
+      { value: 'C++', label: 'Gameplay Systems' },
+      { value: 'Networking', label: 'Dedicated & Listen Servers' },
+      { value: 'Subsystems', label: 'Modular Architecture' },
+      { value: 'Replication', label: 'Authoritative State Flow' },
     ],
     overview:
       'Bedroom Brawl is a multiplayer Unreal Engine project featuring multiple gameplay modes with shared progression systems, AI behaviors, and dynamic objectives. The architecture was built so new game modes could be implemented without duplicating core gameplay logic.',
     problem:
       'Traditional Unreal gameplay logic often becomes tightly coupled to GameMode classes. As additional gameplay modes were introduced, this risked creating large monolithic GameMode implementations that would be difficult to maintain, extend, and reason about in multiplayer. At the same time, multiplayer systems required careful separation of server authority, client state, and persistent player data.',
-    designGoals: [
+    goals: [
       'Support multiple gameplay modes without duplicating code',
       'Maintain strict server authority for multiplayer gameplay',
       'Allow systems to be reused across different game modes',
@@ -58,7 +60,7 @@ const CaseStudiesData = [
       'Gameplay Tags',
       'Unreal Subsystems',
     ],
-  },
+    },
   {
   id: 2,
   slug: 'data-driven-gameplay-systems',
@@ -67,15 +69,15 @@ const CaseStudiesData = [
   logo: unrealLogo,
   image: progressionImg,
   caption:
-    "Gameplay flow integrating progression systems, player rewards, and persistent profile data across match outcomes.",
+    "Gameplay progression pipeline connecting objectives, rewards, currency systems, and persistent player profile data.",
   title: 'Data-Driven Gameplay Systems',
   subtitle:
-    'Building modular progression, rewards, and persistent profile systems that work consistently across multiple gameplay modes.',
+    "Building reusable progression, reward, and persistence systems through modular Unreal subsystems and data-driven configuration.",
   metrics: [
-    { value: 'Progression', label: 'System Type' },
-    { value: 'Rewards', label: 'Pipeline' },
-    { value: 'JSON', label: 'Persistence' },
-    { value: 'Data-Driven', label: 'Design' },
+    { value: 'Progression', label: 'Shared Gameplay Framework' },
+    { value: 'Rewards', label: 'Reusable Reward Pipeline' },
+    { value: 'Persistence', label: 'Profile & Save Data' },
+    { value: 'Data-Driven', label: 'Designer-Friendly Tuning' },
   ],
   overview:
     'To support progression systems and player rewards across multiple gameplay modes, I implemented a series of modular gameplay subsystems responsible for player currency, progression, and persistent profile data.',
@@ -117,15 +119,15 @@ const CaseStudiesData = [
   logo: unrealLogo,
   image: aiGoalsImg,
   caption:
-    "AI enemies dynamically selecting strategic targets using behavior-tree driven goal evaluation.",
+    "AI enemies selecting strategic targets through behavior-tree services and dynamic goal scoring.",
   title: 'AI Strategic Goal System',
   subtitle:
-    'Designing dynamic AI goal evaluation so characters can react to players, objectives, and changing match conditions.',
+    "Implementing dynamic AI goal evaluation using Behavior Trees, perception input, and scoring systems for adaptive enemy behavior.",
   metrics: [
-    { value: 'AI', label: 'System Type' },
-    { value: 'Behavior Trees', label: 'Framework' },
-    { value: 'Perception', label: 'Awareness' },
-    { value: 'Dynamic Goals', label: 'Decision Model' },
+    { value: 'AI', label: 'Decision Architecture' },
+    { value: 'Behavior Trees', label: 'Runtime Control Layer' },
+    { value: 'Perception', label: 'World Awareness Input' },
+    { value: 'Goal Scoring', label: 'Dynamic Priority Selection' },
   ],
   overview:
     'AI characters in Bedroom Brawl needed to respond dynamically to changing gameplay situations such as attacking players, defending objectives, or pursuing strategic targets. To support this, I implemented a goal evaluation system integrated with Unreal’s Behavior Tree framework.',
@@ -165,15 +167,15 @@ const CaseStudiesData = [
   logo: unrealLogo,
   image: towerDefenseImg,
   caption:
-    "Tower defense gameplay with grid-based trap placement and wave-based enemy spawning systems.",
+    "Tower defense gameplay driven by grid-based trap placement, modular wave spawning, and objective tracking systems.",
   title: 'Tower Defense Gameplay Systems',
   subtitle:
-    'Building modular placement, wave, and goal systems for tower-defense-inspired gameplay while keeping performance scalable.',
+    "Designing modular placement, wave, and objective systems for scalable tower-defense gameplay and high enemy counts.",
   metrics: [
-    { value: 'Grid', label: 'Placement' },
-    { value: 'Waves', label: 'Spawning' },
-    { value: 'Goals', label: 'Tracking' },
-    { value: 'Performance', label: 'Priority' },
+    { value: 'Grid Placement', label: 'Trap Validation & Snapping' },
+    { value: 'Wave Logic', label: 'Encounter Spawning Flow' },
+    { value: 'Goal Tracking', label: 'Objective Damage Systems' },
+    { value: 'Scalability', label: 'Performance-Driven Design' },
   ],
   overview:
     'Bedroom Brawl includes gameplay inspired by tower defense mechanics, requiring systems for trap placement, enemy waves, and pathing. I implemented modular gameplay systems to support these mechanics while keeping them maintainable and performant.',
@@ -214,14 +216,14 @@ const CaseStudiesData = [
   logo: unityLogo,
   image: waffleAssetImg,
   caption:
-    "Waffle Smash gameplay featuring dynamically loaded assets and UI flows supported by Unity Addressables.",
+    "Waffle Smash performance tracker using Unity Addressables and on-demand asset delivery to support scalable mobile content.",
   title: 'Scalable Mobile Asset Delivery in Unity',
-  subtitle: 'Building a data-driven mobile content pipeline using Addressables, Play Asset Delivery, and runtime memory-aware asset management.',
+  subtitle: "Building a scalable mobile content pipeline using Unity Addressables, Play Asset Delivery, and runtime memory-aware asset management.",
   metrics: [
-    { value: 'Unity', label: 'Engine' },
-    { value: 'Addressables', label: 'Delivery Layer' },
-    { value: 'PAD', label: 'On-Demand Content' },
-    { value: 'Memory', label: 'Optimization Focus' },
+    { value: 'Unity', label: 'Mobile Gameplay Pipeline' },
+    { value: 'Addressables', label: 'Runtime Asset Loading' },
+    { value: 'PAD', label: 'On-Demand Content Delivery' },
+    { value: 'Memory', label: 'Load / Release Optimization' },
   ],
   overview:
     'For Waffle Smash: Diner Rush, a mobile match-3 and diner-building game released on Android and iOS, I worked on gameplay systems, UI, scene flow, and technical infrastructure with a strong focus on asset delivery, memory efficiency, and scalable content management. A major challenge was supporting growing game content without inflating install size or causing unnecessary runtime memory pressure.',

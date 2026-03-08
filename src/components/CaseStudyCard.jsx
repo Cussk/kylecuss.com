@@ -5,29 +5,43 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 const CaseStudyCard = ({ study, compact = false }) => {
   const [expanded, setExpanded] = useState(false);
 
+  const toggleExpanded = () => setExpanded((prev) => !prev);
   const showDetails = expanded || compact;
 
   return (
-    <article className={`case-study-card ${expanded ? 'expanded' : ''} ${compact ? 'compact' : ''}`}>
-      <div className="case-study-card__media-wrapper">
+    <article
+      id={study.slug}
+      className={`case-study-card ${expanded ? 'expanded' : ''} ${compact ? 'compact' : ''}`}
+    >
+      <div className='case-study-card__media-wrapper'>
         <button
           type='button'
           className='case-study-card__media'
-          onClick={() => setExpanded((prev) => !prev)}
+          onClick={toggleExpanded}
           aria-label={expanded ? 'Collapse case study' : 'Expand case study'}
           aria-expanded={expanded}
         >
-          <img src={study.image} alt={study.title} />
+          <img
+            src={study.image}
+            alt={study.title}
+            className='case-study-card__media-image'
+          />
 
           {study.logo && (
-            <span className='case-study-card__tag case-study-card__tag--logo'>
+            <span
+              className={`case-study-card__tag ${
+                study.logoType === 'wordmark'
+                  ? 'case-study-card__tag--wordmark'
+                  : 'case-study-card__tag--icon'
+              }`}
+            >
               <img src={study.logo} alt={`${study.tag} logo`} />
             </span>
           )}
         </button>
 
         {study.caption && (
-          <p className="case-study-card__caption">
+          <p className='case-study-card__caption'>
             {study.caption}
           </p>
         )}
@@ -44,7 +58,7 @@ const CaseStudyCard = ({ study, compact = false }) => {
             <button
               className='case-study-card__toggle'
               type='button'
-              onClick={() => setExpanded((prev) => !prev)}
+              onClick={toggleExpanded}
               aria-label={expanded ? 'Collapse case study' : 'Expand case study'}
               aria-expanded={expanded}
             >
@@ -66,12 +80,7 @@ const CaseStudyCard = ({ study, compact = false }) => {
           <div className='case-study-card__details'>
             <div className='case-study-card__section'>
               <span className='case-study-card__eyebrow'>Overview</span>
-              <p>
-                Bedroom Brawl is a multiplayer Unreal Engine project featuring multiple gameplay
-                modes with shared progression systems, AI behaviors, and dynamic objectives. The
-                architecture was built so new game modes could be implemented without duplicating
-                core gameplay logic.
-              </p>
+              <p>{study.overview}</p>
             </div>
 
             <div className='case-study-card__section'>
@@ -82,11 +91,9 @@ const CaseStudyCard = ({ study, compact = false }) => {
             <div className='case-study-card__section'>
               <span className='case-study-card__eyebrow'>Design Goals</span>
               <ul className='case-study-card__results'>
-                <li>Support multiple gameplay modes without duplicating code</li>
-                <li>Maintain strict server authority for multiplayer gameplay</li>
-                <li>Allow systems to be reused across different game modes</li>
-                <li>Minimize actor tick overhead</li>
-                <li>Enable designers to configure gameplay without modifying code</li>
+                {study.goals.map((goal, index) => (
+                  <li key={index}>{goal}</li>
+                ))}
               </ul>
             </div>
 

@@ -12,12 +12,26 @@ const CaseStudiesSection = ({ featuredOnly = false, compact = false }) => {
     <section className='case-studies-section'>
       <div className='case-studies-shell'>
         {!featuredOnly && (
-          <div className='case-studies-intro'>
-            <p className='case-studies-intro__copy'>
-              Click any card to read the full technical breakdown — problem, approach, solution,
-              and results.
-            </p>
-          </div>
+          <>
+            <div className='case-studies-intro'>
+              <span className='case-studies-intro__eyebrow'>QUICK NAVIGATION</span>
+              <p className='case-studies-intro__copy'>
+                Jump to a case study below, or expand any card to read the full technical breakdown.
+              </p>
+            </div>
+
+            <nav className='case-studies-nav' aria-label='Case study quick navigation'>
+              {studies.map((study) => (
+                <a
+                  key={study.id}
+                  href={`#${study.slug}`}
+                  className='case-studies-nav__pill'
+                >
+                  {study.navLabel || study.title}
+                </a>
+              ))}
+            </nav>
+          </>
         )}
 
         <div className='case-studies-list'>
