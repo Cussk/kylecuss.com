@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kylecuss.com/static/css/main.c849fe28.css",
-    "main.js": "/kylecuss.com/static/js/main.cfb54b07.js",
+    "main.js": "/kylecuss.com/static/js/main.615ee5b7.js",
     "static/media/BedroomBrawlTowerDefense.png": "/kylecuss.com/static/media/BedroomBrawlTowerDefense.12493b809471d15d8818.png",
     "static/media/BedroomBrawlProgression.png": "/kylecuss.com/static/media/BedroomBrawlProgression.44633069e68c9bb01390.png",
     "static/media/BedroomBrawlArchitecture.png": "/kylecuss.com/static/media/BedroomBrawlArchitecture.f0a8c0666d63f4e92b3b.png",
@@ -21,10 +21,10 @@
     "static/media/upwork.svg": "/kylecuss.com/static/media/upwork.6e515d9b6bffaa08f61be52702ff765b.svg",
     "index.html": "/kylecuss.com/index.html",
     "main.c849fe28.css.map": "/kylecuss.com/static/css/main.c849fe28.css.map",
-    "main.cfb54b07.js.map": "/kylecuss.com/static/js/main.cfb54b07.js.map"
+    "main.615ee5b7.js.map": "/kylecuss.com/static/js/main.615ee5b7.js.map"
   },
   "entrypoints": [
     "static/css/main.c849fe28.css",
-    "static/js/main.cfb54b07.js"
+    "static/js/main.615ee5b7.js"
   ]
 }
