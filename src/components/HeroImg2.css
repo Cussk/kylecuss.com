@@ -1,43 +1,98 @@
-.hero-img {
+.hero-img-case-studies {
     position: relative;
     width: 100%;
-    height: 60vh;
-    background: rgba(0, 0, 0, 0.5);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
-.hero-img::before{
+.hero-img-case-studies::before {
     position: absolute;
     content: '';
-    background: url('../assets/projectsbg.jpg');
+    inset: 0;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0,0,0,0.82) 0%,
+            rgba(0,0,0,0.62) 40%,
+            rgba(0,0,0,0.35) 72%,
+            rgba(0,0,0,0.18) 100%
+        ),
+        url('../assets/casestudiesbg.png');
     background-size: cover;
-    background-position: center top;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+    background-position: center left;
+    background-repeat: no-repeat;
+    filter: contrast(1.05) brightness(1.5);
+    z-index: -2;
+}
+
+.hero-img-case-studies::after {
+   content: '';
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0) 72%,
+            rgba(0, 0, 0, 0.35) 84%,
+            rgba(0, 0, 0, 0.75) 94%,
+            rgba(0, 0, 0, 1) 100%
+        );
+    pointer-events: none;
     z-index: -1;
 }
 
-.heading {
+.hero-img-case-studies__overlay {
+    width: 100%;
+    padding: 6rem 2rem;
+}
+
+.hero-img-case-studies__content {
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
 }
 
-.hero-img h1 {
-    font-size: 2.4rem;
+.hero-img-case-studies__eyebrow {
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: #59cfff;
+    margin-bottom: 1rem;
 }
 
-.hero-img p {
-    font-size: 1.4rem;
-    text-align: center;
+.hero-img-case-studies__title {
+    font-size: clamp(2.8rem, 5vw, 5rem);
+    line-height: 1.05;
+    margin-bottom: 1rem;
+    max-width: 860px;
 }
 
-@media screen and (max-width: 640px){
-    .hero-img h1 {
-        font-size: 2rem;
-    }   
+.hero-img-case-studies__subtitle {
+    font-size: 1.15rem;
+    line-height: 1.75;
+    color: #d6d6d6;
+    max-width: 720px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-img-case-studies {
+        min-height: 56vh;
+    }
+
+    .hero-img-case-studies__overlay {
+        padding: 5rem 1.25rem 3.5rem;
+    }
+
+    .hero-img-case-studies__subtitle {
+        font-size: 1rem;
+        line-height: 1.65;
+        max-width: 100%;
+    }
 }

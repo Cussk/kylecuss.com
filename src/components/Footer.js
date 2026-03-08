@@ -1,6 +1,7 @@
 import './Footer.css';
 import React from 'react';
-import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 import UpworkIcon from '../assets/upwork.svg';
 
 const Footer = () => {
@@ -45,7 +46,7 @@ const Footer = () => {
             </a>
 
             <a href='https://twitter.com/cuss_kyle' target='_blank' rel='noreferrer' aria-label='Twitter'>
-              <FaTwitter className='social-icon' size={26} />
+              <FaXTwitter className='social-icon' size={26} />
             </a>
           </div>
         </div>
