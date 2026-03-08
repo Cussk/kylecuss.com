@@ -1,25 +1,30 @@
 import './HeroImg.css';
 import React from 'react';
 import desk from '../assets/desk.jpg';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const HeroImg = () => {
   return (
-    <div className='hero'>
-        <div className='mask'>
-            <img className='intro-img' src={desk} alt="Working at desk."/>
+    <section className='home-hero'>
+      <div className='home-hero__mask'>
+        <img className='home-hero__image' src={desk} alt='Kyle Cuss working at desk.' />
+      </div>
+
+      <div className='home-hero__content'>
+        <span className='home-hero__eyebrow'>KYLE CUSS</span>
+        <h1 className='home-hero__title'>Gameplay & Systems Engineer</h1>
+        <p className='home-hero__subtitle'>
+          I design and build scalable gameplay systems, AI behaviors, and multiplayer architecture
+          in Unreal Engine and Unity.
+        </p>
+
+        <div className='home-hero__actions'>
+          <Link to='/kylecuss.com/case-studies' className='btn'>View Case Studies</Link>
+          <Link to='/kylecuss.com/contact' className='btn btn-light'>Contact</Link>
         </div>
-        <div className='content'>
-            <p>HI, I'M KYLE CUSS</p>
-            <h1>Gameplay/Systems Engineer</h1>
-            <div>
-                <Link to='/kylecuss.com/case-studies' className='btn'>Case Studies</Link>
-                <Link to='/kylecuss.com/contact' className='btn btn-light'>Contact</Link>
-            </div>
-        </div>
-    </div>
-    
-  )
+      </div>
+    </section>
+  );
 };
 
 export default HeroImg;

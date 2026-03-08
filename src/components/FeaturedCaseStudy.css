@@ -1,0 +1,40 @@
+.featured-case-study {
+    padding: 0 2rem 7rem;
+    background: #000;
+}
+
+.featured-case-study__shell {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.featured-case-study__intro {
+    margin-bottom: 2rem;
+}
+
+.featured-case-study__eyebrow {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: #59cfff;
+    margin-bottom: 1rem;
+}
+
+.featured-case-study__title {
+    font-size: clamp(2rem, 3vw, 3rem);
+    line-height: 1.15;
+    margin-bottom: 1rem;
+    max-width: 760px;
+}
+
+.featured-case-study__copy {
+    max-width: 760px;
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: #d2d2d2;
+}
+
+.featured-case-study__actions {
+    margin-top: 2rem;
+}
