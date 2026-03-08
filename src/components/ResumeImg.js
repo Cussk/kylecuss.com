@@ -8,7 +8,6 @@ const ResumeImg = () => {
       <div className='resume-shell'>
         <div className='resume-header'>
           <span className='resume-header__eyebrow'>RESUME</span>
-          
           <p className='resume-header__copy'>
             View my full resume below or download a PDF copy.
           </p>
