@@ -83,6 +83,18 @@ const CaseStudyCard = ({ study, compact = false }) => {
               <p>{study.overview}</p>
             </div>
 
+            {study.myRoleTitle && study.myRoleBullets && (
+              <div className='case-study-card__section'>
+                <span className='case-study-card__eyebrow'>My Role</span>
+                <p className='case-study-card__role-title'>{study.myRoleTitle}</p>
+                <ul className='case-study-card__results case-study-card__results--role'>
+                  {study.myRoleBullets.map((bullet, index) => (
+                    <li key={index}>{bullet}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
             <div className='case-study-card__section'>
               <span className='case-study-card__eyebrow'>The Problem</span>
               <p>{study.problem}</p>

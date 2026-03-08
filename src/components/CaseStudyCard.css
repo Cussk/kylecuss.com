@@ -102,6 +102,18 @@
     display: none;
 }
 
+.case-study-card__role-title {
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.7;
+    color: #f1f5ff;
+    margin-bottom: 0.9rem;
+}
+
+.case-study-card__results--role li {
+    color: #d3dbef;
+}
+
 .case-study-card__media-wrapper {
     padding: 1.4rem 1.4rem 0 1.4rem;
 }
