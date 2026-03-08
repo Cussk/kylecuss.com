@@ -19,8 +19,8 @@ const HeroImg = () => {
         </p>
 
         <div className='home-hero__actions'>
-          <Link to='/kylecuss.com/case-studies' className='btn'>View Case Studies</Link>
-          <Link to='/kylecuss.com/contact' className='btn btn-light'>Contact</Link>
+          <Link to='/case-studies' className='btn'>View Case Studies</Link>
+          <Link to='/contact' className='btn btn-light'>Contact</Link>
         </div>
       </div>
     </section>

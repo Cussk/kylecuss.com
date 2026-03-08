@@ -16,11 +16,11 @@ function App() {
       <ScrollToTop />
 
       <Routes>
-        <Route path="/kylecuss.com/" element={<Home />} />
-        <Route path="/kylecuss.com/case-studies" element={<CaseStudies />} />
-        <Route path="/kylecuss.com/about" element={<About />} />
-        <Route path="/kylecuss.com/resume" element={<Resume />} />
-        <Route path="/kylecuss.com/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );

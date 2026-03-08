@@ -23,7 +23,7 @@ const FeaturedCaseStudy = () => {
         <CaseStudyCard study={featuredStudy} compact={true} />
 
         <div className='featured-case-study__actions'>
-          <Link to='/kylecuss.com/case-studies' className='btn'>
+          <Link to='/case-studies' className='btn'>
             View All Case Studies
           </Link>
         </div>

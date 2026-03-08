@@ -8,6 +8,16 @@ const CaseStudiesSection = ({ featuredOnly = false, compact = false }) => {
     ? CaseStudiesData.filter((study) => study.featured)
     : CaseStudiesData;
 
+  const handleScrollToStudy = (slug) => {
+    const el = document.getElementById(slug);
+    if (el) {
+      el.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  };
+
   return (
     <section className='case-studies-section'>
       <div className='case-studies-shell'>
@@ -22,13 +32,14 @@ const CaseStudiesSection = ({ featuredOnly = false, compact = false }) => {
 
             <nav className='case-studies-nav' aria-label='Case study quick navigation'>
               {studies.map((study) => (
-                <a
+                <button
                   key={study.id}
-                  href={`#${study.slug}`}
+                  type='button'
                   className='case-studies-nav__pill'
+                  onClick={() => handleScrollToStudy(study.slug)}
                 >
                   {study.navLabel || study.title}
-                </a>
+                </button>
               ))}
             </nav>
           </>

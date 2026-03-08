@@ -35,33 +35,33 @@ const NavBar = () => {
 
   return (
     <header className={scrolled || click ? 'header header-bg' : 'header'}>
-      <NavLink to='/kylecuss.com/' className='header__brand' onClick={closeMenu}>
+      <NavLink to='/' className='header__brand' onClick={closeMenu}>
         <h1>Kyle Cuss</h1>
       </NavLink>
 
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li>
-          <NavLink to='/kylecuss.com/' end onClick={closeMenu}>
+          <NavLink to='/' end onClick={closeMenu}>
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to='/kylecuss.com/case-studies' onClick={closeMenu}>
+          <NavLink to='/case-studies' onClick={closeMenu}>
             Case Studies
           </NavLink>
         </li>
         <li>
-          <NavLink to='/kylecuss.com/about' onClick={closeMenu}>
+          <NavLink to='/about' onClick={closeMenu}>
             About
           </NavLink>
         </li>
         <li>
-          <NavLink to='/kylecuss.com/resume' onClick={closeMenu}>
+          <NavLink to='/resume' onClick={closeMenu}>
             Resume
           </NavLink>
         </li>
         <li>
-          <NavLink to='/kylecuss.com/contact' onClick={closeMenu}>
+          <NavLink to='/contact' onClick={closeMenu}>
             Contact
           </NavLink>
         </li>

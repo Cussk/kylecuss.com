@@ -39,11 +39,11 @@ const AboutContent = () => {
             </p>
 
             <div className='about-actions'>
-              <Link to='/kylecuss.com/contact'>
+              <Link to='/contact'>
                 <button className='btn'>Contact</button>
               </Link>
 
-              <Link to='/kylecuss.com/case-studies'>
+              <Link to='/case-studies'>
                 <button className='btn btn-outline'>View Case Studies</button>
               </Link>
             </div>
