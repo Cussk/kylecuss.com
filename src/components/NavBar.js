@@ -7,22 +7,34 @@ const NavBar = () => {
   const [click, setClick] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  const handleClick = () => setClick((prev) => !prev);
   const closeMenu = () => setClick(false);
 
   useEffect(() => {
     const changeColor = () => {
-      setScrolled(window.scrollY >= 100);
+      setScrolled(window.scrollY >= 60);
+    };
+
+    const handleResize = () => {
+      if (window.innerWidth > 900) {
+        setClick(false);
+      }
     };
 
     window.addEventListener('scroll', changeColor);
-    changeColor();
+    window.addEventListener('resize', handleResize);
 
-    return () => window.removeEventListener('scroll', changeColor);
+    changeColor();
+    handleResize();
+
+    return () => {
+      window.removeEventListener('scroll', changeColor);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return (
-    <header className={scrolled ? 'header header-bg' : 'header'}>
+    <header className={scrolled || click ? 'header header-bg' : 'header'}>
       <NavLink to='/kylecuss.com/' className='header__brand' onClick={closeMenu}>
         <h1>Kyle Cuss</h1>
       </NavLink>
@@ -62,7 +74,7 @@ const NavBar = () => {
         aria-label={click ? 'Close navigation menu' : 'Open navigation menu'}
         aria-expanded={click}
       >
-        {click ? <FaTimes size={20} /> : <FaBars size={20} />}
+        {click ? <FaTimes size={22} /> : <FaBars size={22} />}
       </button>
     </header>
   );

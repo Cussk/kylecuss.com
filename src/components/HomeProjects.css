@@ -58,8 +58,8 @@
 
 .home-project-card__media {
     position: relative;
-    padding: 2rem;
-    min-height: 220px;
+    padding: 2rem 2rem 1.5rem;
+    min-height: 260px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,8 +69,8 @@
 
 .home-project-card__logo-image {
     width: 100%;
-    max-width: 260px;
-    max-height: 140px;
+    max-width: 320px;
+    max-height: 180px;
     object-fit: contain;
     display: block;
 }
@@ -91,27 +91,27 @@
 }
 
 .home-project-card__engine--icon {
-    width: 54px;
-    height: 54px;
+    width: 58px;
+    height: 58px;
     border-radius: 50%;
 }
 
 .home-project-card__engine--wordmark {
-    min-width: 82px;
-    height: 46px;
-    padding: 0 0.9rem;
+    min-width: 94px;
+    height: 52px;
+    padding: 0 1rem;
     border-radius: 999px;
 }
 
 .home-project-card__engine--icon img {
-    width: 26px;
-    height: 26px;
+    width: 36px;
+    height: 36px;
     object-fit: contain;
 }
 
 .home-project-card__engine--wordmark img {
-    height: 18px;
-    max-width: 74px;
+    height: 22px;
+    max-width: 82px;
     object-fit: contain;
 }
 
@@ -177,5 +177,36 @@
 @media screen and (max-width: 640px) {
     .home-projects {
         padding: 4rem 1.25rem 5rem;
+    }
+
+    .home-project-card__media {
+        min-height: 220px;
+        padding: 1.5rem 1.5rem 1.25rem;
+    }
+
+    .home-project-card__logo-image {
+        max-width: 260px;
+        max-height: 150px;
+    }
+
+    .home-project-card__engine--icon {
+        width: 54px;
+        height: 54px;
+    }
+
+    .home-project-card__engine--icon img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .home-project-card__engine--wordmark {
+        min-width: 82px;
+        height: 46px;
+        padding: 0 0.85rem;
+    }
+
+    .home-project-card__engine--wordmark img {
+        height: 19px;
+        max-width: 74px;
     }
 }
