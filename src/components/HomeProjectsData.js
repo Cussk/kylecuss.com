@@ -38,8 +38,8 @@ const HomeProjectsData = [
     engineLogo: unrealLogo,
     engineLogoType: 'icon',
     subtitle:
-      'A modular multiplayer framework with data-driven animation systems, AI state machines, and reusable gameplay architecture for multiple prototypes.',
-    tags: ['Framework', 'Unreal Engine', 'Data-Driven', 'Animation / AI'],
+      'A modular multiplayer framework with data-driven animation systems, AI state trees, factions system, and reusable gameplay architecture for multiple prototypes.',
+    tags: ['Framework', 'Unreal Engine', 'Data-Driven', 'Animation Blueprints', 'AI State Trees'],
   },
 ];
 
