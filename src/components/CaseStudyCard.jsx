@@ -82,30 +82,40 @@ const CaseStudyCard = ({ study, compact = false, featured = false }) => {
         </div>
 
         {showFeaturedSummary && (
-          <div className='case-study-card__featured-summary'>
-            {study.overview && (
-              <div className='case-study-card__section'>
-                <span className='case-study-card__eyebrow'>Overview</span>
-                <p>{study.overview}</p>
-              </div>
-            )}
+          <div className='case-study-card__featured-summary case-study-card__featured-summary--split'>
+            <div className='case-study-card__featured-main'>
+              {study.overview && (
+                <div className='case-study-card__section'>
+                  <span className='case-study-card__eyebrow'>Overview</span>
+                  <p>{study.overview}</p>
+                </div>
+              )}
 
-            {study.homeRole && (
-              <div className='case-study-card__section'>
-                <span className='case-study-card__eyebrow'>My Role</span>
-                <p className='case-study-card__role-title'>{study.homeRole}</p>
-              </div>
-            )}
+              {study.homeRole && (
+                <div className='case-study-card__section'>
+                  <span className='case-study-card__eyebrow'>My Role</span>
+                  <p className='case-study-card__role-title'>{study.homeRole}</p>
+                </div>
+              )}
+            </div>
 
             {shouldShowDiagramOnHome && (
-              <div className='case-study-card__section'>
-                <span className='case-study-card__eyebrow'>Architecture Snapshot</span>
-                <div className='case-study-card__diagram-frame'>
-                  <img
-                    src={study.diagram}
-                    alt={study.diagramAlt || `${study.title} architecture diagram`}
-                    className='case-study-card__diagram-image'
-                  />
+              <div className='case-study-card__featured-side'>
+                <div className='case-study-card__section case-study-card__section--diagram'>
+                  <div className='case-study-card__section-header'>
+                    <span className='case-study-card__eyebrow'>Architecture Snapshot</span>
+                    <span className='case-study-card__section-note'>
+                      Gameplay state flow and subsystem boundaries
+                    </span>
+                  </div>
+
+                  <div className='case-study-card__diagram-frame'>
+                    <img
+                      src={study.diagram}
+                      alt={study.diagramAlt || `${study.title} architecture diagram`}
+                      className='case-study-card__diagram-image'
+                    />
+                  </div>
                 </div>
               </div>
             )}
