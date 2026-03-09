@@ -14,7 +14,8 @@ const HeroImg = () => {
         <span className='home-hero__eyebrow'>KYLE CUSS</span>
         <h1 className='home-hero__title'>Gameplay & Systems Engineer</h1>
         <p className='home-hero__subtitle'>
-          I design and build scalable gameplay systems, AI behaviors, and multiplayer architecture
+          Building scalable multiplayer gameplay systems,<br />
+          AI behaviors, and data-driven architecture<br /> 
           in Unreal Engine and Unity.
         </p>
 

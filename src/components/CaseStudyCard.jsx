@@ -2,22 +2,27 @@ import './CaseStudyCard.css';
 import React, { useState } from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
-const CaseStudyCard = ({ study, compact = false }) => {
+const CaseStudyCard = ({ study, compact = false, featured = false }) => {
   const [expanded, setExpanded] = useState(false);
 
   const toggleExpanded = () => setExpanded((prev) => !prev);
-  const showDetails = expanded || compact;
+
+  const showFeaturedSummary = featured;
+  const showFullDetails = expanded || (!compact && !featured);
+
+  const shouldShowDiagramOnHome = !!study.diagram && !!study.showDiagramOnHome;
+  const shouldShowDiagramOnCaseStudy = !!study.diagram && !!study.showDiagramOnCaseStudy;
 
   return (
     <article
       id={study.slug}
-      className={`case-study-card ${expanded ? 'expanded' : ''} ${compact ? 'compact' : ''}`}
+      className={`case-study-card ${expanded ? 'expanded' : ''} ${compact ? 'compact' : ''} ${featured ? 'featured' : ''}`}
     >
       <div className='case-study-card__media-wrapper'>
         <button
           type='button'
           className='case-study-card__media'
-          onClick={toggleExpanded}
+          onClick={!featured ? toggleExpanded : undefined}
           aria-label={expanded ? 'Collapse case study' : 'Expand case study'}
           aria-expanded={expanded}
         >
@@ -54,7 +59,7 @@ const CaseStudyCard = ({ study, compact = false }) => {
             <p className='case-study-card__subtitle'>{study.subtitle}</p>
           </div>
 
-          {!compact && (
+          {!compact && !featured && (
             <button
               className='case-study-card__toggle'
               type='button'
@@ -76,7 +81,38 @@ const CaseStudyCard = ({ study, compact = false }) => {
           ))}
         </div>
 
-        {showDetails && (
+        {showFeaturedSummary && (
+          <div className='case-study-card__featured-summary'>
+            {study.overview && (
+              <div className='case-study-card__section'>
+                <span className='case-study-card__eyebrow'>Overview</span>
+                <p>{study.overview}</p>
+              </div>
+            )}
+
+            {study.homeRole && (
+              <div className='case-study-card__section'>
+                <span className='case-study-card__eyebrow'>My Role</span>
+                <p className='case-study-card__role-title'>{study.homeRole}</p>
+              </div>
+            )}
+
+            {shouldShowDiagramOnHome && (
+              <div className='case-study-card__section'>
+                <span className='case-study-card__eyebrow'>Architecture Snapshot</span>
+                <div className='case-study-card__diagram-frame'>
+                  <img
+                    src={study.diagram}
+                    alt={study.diagramAlt || `${study.title} architecture diagram`}
+                    className='case-study-card__diagram-image'
+                  />
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {showFullDetails && (
           <div className='case-study-card__details'>
             <div className='case-study-card__section'>
               <span className='case-study-card__eyebrow'>Overview</span>
@@ -118,6 +154,19 @@ const CaseStudyCard = ({ study, compact = false }) => {
               <span className='case-study-card__eyebrow'>Technical Implementation</span>
               <p>{study.solution}</p>
             </div>
+
+            {shouldShowDiagramOnCaseStudy && (
+              <div className='case-study-card__section'>
+                <span className='case-study-card__eyebrow'>Architecture Snapshot</span>
+                <div className='case-study-card__diagram-frame'>
+                  <img
+                    src={study.diagram}
+                    alt={study.diagramAlt || `${study.title} architecture diagram`}
+                    className='case-study-card__diagram-image'
+                  />
+                </div>
+              </div>
+            )}
 
             <div className='case-study-card__section'>
               <span className='case-study-card__eyebrow'>Key Challenges</span>

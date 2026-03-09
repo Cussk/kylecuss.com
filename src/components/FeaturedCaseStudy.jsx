@@ -16,15 +16,16 @@ const FeaturedCaseStudy = () => {
           <span className='featured-case-study__eyebrow'>FEATURED CASE STUDY</span>
           <h2 className='featured-case-study__title'>A closer look at my technical approach.</h2>
           <p className='featured-case-study__copy'>
-            A detailed breakdown of one of the gameplay architecture challenges I designed and implemented.
+            A focused breakdown of one gameplay architecture system, including my role, technical structure,
+            and the design decisions behind it.
           </p>
         </div>
 
-        <CaseStudyCard study={featuredStudy} compact={true} />
+        <CaseStudyCard study={featuredStudy} featured={true} />
 
         <div className='featured-case-study__actions'>
           <Link to='/case-studies' className='btn'>
-            View All Case Studies
+            Explore Case Studies
           </Link>
         </div>
       </div>

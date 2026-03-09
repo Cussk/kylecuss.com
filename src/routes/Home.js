@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import HeroImg from "../components/HeroImg";
+import HeroSpecialties from "../components/HeroSpecialties";
+import HomeAbout from "../components/HomeAbout";
 import Footer from "../components/Footer";
 import HomeProjects from "../components/HomeProjects";
 import FeaturedCaseStudy from "../components/FeaturedCaseStudy";
@@ -11,8 +13,10 @@ const Home = () => {
         <div>
             <NavBar />
             <HeroImg />
+            <HeroSpecialties />
             <HomeProjects />
             <FeaturedCaseStudy />
+            <HomeAbout />
             <HomeSkills />
             <Footer />
         </div>

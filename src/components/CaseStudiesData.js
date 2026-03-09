@@ -5,6 +5,7 @@ import towerDefenseImg from '../assets/BedroomBrawlTowerDefense.png';
 import waffleAssetImg from '../assets/WaffleSmashAddressables.jpg';
 import unrealLogo from '../assets/unreal-logo.png';
 import unityLogo from '../assets/unity-logo.png';
+import bbArchDiagram from '../assets/BedroomBrawlArchitectureDiagram.png';
 
 const CaseStudiesData = [
   {
@@ -18,12 +19,17 @@ const CaseStudiesData = [
     image: bbArchImg,
     title: 'Multiplayer Gameplay Architecture in Unreal Engine',
     subtitle:
-      "Designing modular multiplayer gameplay architecture using Unreal subsystems, replication layers, and data-driven systems to support multiple game modes.",
+      "Designing modular multiplayer gameplay architecture with Unreal subsystems, replication-safe state flow, and data-driven support for multiple game modes.",
     caption:
       "Live multiplayer match running subsystem-driven gameplay systems including objectives, scoring, and replicated player progression.",
+      homeRole: 'Gameplay Systems & Multiplayer Architecture',
+    diagram: bbArchDiagram,
+    diagramAlt: 'Bedroom Brawl gameplay architecture diagram showing GameMode, GameState, PlayerState, and modular subsystems.',
+    showDiagramOnHome: true,
+    showDiagramOnCaseStudy: true,
     metrics: [
       { value: 'C++', label: 'Gameplay Systems' },
-      { value: 'Networking', label: 'Dedicated & Listen Servers' },
+      { value: 'Multiplayer', label: 'Dedicated & Listen Servers' },
       { value: 'Subsystems', label: 'Modular Architecture' },
       { value: 'Replication', label: 'Authoritative State Flow' },
     ],
@@ -82,6 +88,10 @@ const CaseStudiesData = [
     title: 'Data-Driven Gameplay Systems',
     subtitle:
       "Building reusable progression, reward, and persistence systems through modular Unreal subsystems and data-driven configuration.",
+    diagram: bbArchDiagram,
+    diagramAlt: '',
+    showDiagramOnHome: false,
+    showDiagramOnCaseStudy: false,
     metrics: [
       { value: 'Progression', label: 'Shared Gameplay Framework' },
       { value: 'Rewards', label: 'Reusable Reward Pipeline' },
@@ -141,6 +151,10 @@ const CaseStudiesData = [
     title: 'AI Strategic Goal System',
     subtitle:
       "Implementing dynamic AI goal evaluation using Behavior Trees, perception input, and scoring systems for adaptive enemy behavior.",
+    diagram: bbArchDiagram,
+    diagramAlt: '',
+    showDiagramOnHome: false,
+    showDiagramOnCaseStudy: false,
     metrics: [
       { value: 'AI', label: 'Decision Architecture' },
       { value: 'Behavior Trees', label: 'Runtime Control Layer' },
@@ -198,6 +212,10 @@ const CaseStudiesData = [
     title: 'Tower Defense Gameplay Systems',
     subtitle:
       "Designing modular placement, wave, and objective systems for scalable tower-defense gameplay and high enemy counts.",
+    diagram: bbArchDiagram,
+    diagramAlt: '',
+    showDiagramOnHome: false,
+    showDiagramOnCaseStudy: false,
     metrics: [
       { value: 'Grid Placement', label: 'Trap Validation & Snapping' },
       { value: 'Wave Logic', label: 'Encounter Spawning Flow' },
@@ -255,6 +273,10 @@ const CaseStudiesData = [
       "Waffle Smash performance tracker using Unity Addressables and on-demand asset delivery to support scalable mobile content.",
     title: 'Scalable Mobile Asset Delivery in Unity',
     subtitle: "Building a scalable mobile content pipeline using Unity Addressables, Play Asset Delivery, and runtime memory-aware asset management.",
+    diagram: bbArchDiagram,
+    diagramAlt: '',
+    showDiagramOnHome: false,
+    showDiagramOnCaseStudy: false,
     metrics: [
       { value: 'Unity', label: 'Mobile Gameplay Pipeline' },
       { value: 'Addressables', label: 'Runtime Asset Loading' },

@@ -1,0 +1,57 @@
+.home-about {
+    padding: 0 2rem 7rem;
+    background: #000;
+}
+
+.home-about__shell {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.home-about__content {
+    max-width: 860px;
+}
+
+.home-about__eyebrow {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: #8df75a;
+    margin-bottom: 1rem;
+}
+
+.home-about__title {
+    font-size: clamp(2rem, 3vw, 3rem);
+    line-height: 1.15;
+    margin-bottom: 1.25rem;
+    max-width: 760px;
+}
+
+.home-about__copy {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.home-about__copy p {
+    font-size: 1.08rem;
+    line-height: 1.85;
+    color: #c8cfdf;
+    max-width: 820px;
+}
+
+.home-about__actions {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .home-about {
+        padding: 0 1.25rem 5rem;
+    }
+
+    .home-about__copy p {
+        font-size: 1rem;
+        line-height: 1.75;
+    }
+}
