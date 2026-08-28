@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kylecuss.com/static/css/main.c73f4434.css",
-    "main.js": "/kylecuss.com/static/js/main.ae79b12e.js",
+    "main.css": "/kylecuss.com/static/css/main.6efcc990.css",
+    "main.js": "/kylecuss.com/static/js/main.836d79ac.js",
     "static/media/BedroomBrawlTowerDefense.png": "/kylecuss.com/static/media/BedroomBrawlTowerDefense.12493b809471d15d8818.png",
     "static/media/BedroomBrawlProgression.png": "/kylecuss.com/static/media/BedroomBrawlProgression.44633069e68c9bb01390.png",
     "static/media/BedroomBrawlArchitecture.png": "/kylecuss.com/static/media/BedroomBrawlArchitecture.f0a8c0666d63f4e92b3b.png",
@@ -12,6 +12,7 @@
     "static/media/casestudiesbg.png": "/kylecuss.com/static/media/casestudiesbg.1db8700dc630208ef2a3.png",
     "static/media/aboutbg.png": "/kylecuss.com/static/media/aboutbg.c9df357abef3be2dd882.png",
     "static/media/contactbg.png": "/kylecuss.com/static/media/contactbg.1443276ded8a416df144.png",
+    "static/media/servicesbg.png": "/kylecuss.com/static/media/servicesbg.a226490e4429aa0f0b9a.png",
     "static/media/BedroomBrawlArchitectureDiagram.png": "/kylecuss.com/static/media/BedroomBrawlArchitectureDiagram.cd844650615d2f9e3bd6.png",
     "static/media/WaffleSmash.png": "/kylecuss.com/static/media/WaffleSmash.3516d80257783db93da9.png",
     "static/media/desk.jpg": "/kylecuss.com/static/media/desk.8a5e788f5acfa623fe67.jpg",
@@ -21,11 +22,11 @@
     "static/media/unreal-logo.png": "/kylecuss.com/static/media/unreal-logo.1ce6aaf04e1e84d1284f.png",
     "static/media/upwork.svg": "/kylecuss.com/static/media/upwork.6e515d9b6bffaa08f61be52702ff765b.svg",
     "index.html": "/kylecuss.com/index.html",
-    "main.c73f4434.css.map": "/kylecuss.com/static/css/main.c73f4434.css.map",
-    "main.ae79b12e.js.map": "/kylecuss.com/static/js/main.ae79b12e.js.map"
+    "main.6efcc990.css.map": "/kylecuss.com/static/css/main.6efcc990.css.map",
+    "main.836d79ac.js.map": "/kylecuss.com/static/js/main.836d79ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.c73f4434.css",
-    "static/js/main.ae79b12e.js"
+    "static/css/main.6efcc990.css",
+    "static/js/main.836d79ac.js"
   ]
 }
