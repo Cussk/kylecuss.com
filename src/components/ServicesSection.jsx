@@ -2,6 +2,7 @@ import './ServicesSection.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ServicesData from './ServicesData';
+import EngineSupportSection from './EngineSupportSection';
 
 const processSteps = [
   ['assess', 'Assess', 'Review the current project, constraints, technical risks, and existing ownership and data flow.'],
@@ -61,6 +62,8 @@ const ServicesSection = () => {
           </div>
         </div>
       </section>
+
+      <EngineSupportSection />
 
       <section className='services-process' aria-labelledby='services-process-title'>
         <div className='services-shell'>

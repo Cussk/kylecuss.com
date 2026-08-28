@@ -1,0 +1,121 @@
+.engine-support {
+    padding: 3rem 2rem 5rem;
+    background: #000;
+}
+
+.engine-support__heading {
+    max-width: 820px;
+    margin-bottom: 2rem;
+}
+
+.engine-support__heading h2 {
+    max-width: 820px;
+    margin: 0 0 1rem;
+    font-size: clamp(2rem, 3.2vw, 3.2rem);
+    line-height: 1.12;
+}
+
+.engine-support__heading p {
+    max-width: 800px;
+    margin: 0;
+    color: #c5ccd8;
+    line-height: 1.75;
+}
+
+.engine-support__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.engine-support-card {
+    padding: 1.75rem;
+    background: linear-gradient(180deg, rgba(20, 25, 34, 0.9), rgba(9, 12, 18, 0.96));
+    border: 1px solid rgba(89, 207, 255, 0.1);
+    border-top: 3px solid #59cfff;
+    border-radius: 20px;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.engine-support-card--green {
+    border-top-color: #8df75a;
+}
+
+.engine-support-card h3 {
+    margin: 0 0 0.85rem;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+.engine-support-card p {
+    margin: 0 0 1rem;
+    color: #cbd2df;
+    line-height: 1.7;
+}
+
+.engine-support-card__available {
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.engine-support-card__label {
+    display: block;
+    margin-bottom: 0.65rem;
+    color: #59cfff;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.engine-support-card--green .engine-support-card__label {
+    color: #8df75a;
+}
+
+.engine-support-card ul {
+    display: grid;
+    gap: 0.7rem;
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.engine-support-card li {
+    padding-left: 0.15rem;
+    color: #e0e5ee;
+    line-height: 1.5;
+}
+
+.engine-support-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(89, 207, 255, 0.3);
+    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.4);
+}
+
+.engine-support-card--green:hover {
+    border-color: rgba(141, 247, 90, 0.35);
+}
+
+@media screen and (max-width: 900px) {
+    .engine-support__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .engine-support {
+        padding: 3.25rem 1.25rem 5rem;
+    }
+
+    .engine-support-card {
+        padding: 1.5rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .engine-support-card {
+        transition: none;
+    }
+}
