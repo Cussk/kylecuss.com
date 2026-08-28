@@ -37,9 +37,9 @@ const Form = () => {
             <h2 className='contact-copy__title'>Let’s talk about your project.</h2>
 
             <p>
-              I’m available for remote contract, freelance, and gameplay systems work. Whether you
-              need help with multiplayer features, gameplay architecture, AI behaviors, or systems
-              implementation, feel free to reach out.
+              I’m available for remote contract and freelance game-development work, including complete
+              technical implementation, architectural refactoring, gameplay systems, Blueprint-to-C++
+              migration, and multiplayer features.
             </p>
 
             <p>
@@ -55,7 +55,7 @@ const Form = () => {
 
               <div className='contact-details__item'>
                 <span className='contact-details__label'>Focus</span>
-                <p>Gameplay Systems, Multiplayer, AI, Unreal Engine, Unity</p>
+                <p>Game Programming, Architectural Refactoring, Gameplay Systems, Multiplayer, Unreal Engine, Unity</p>
               </div>
 
               <div className='contact-details__item'>

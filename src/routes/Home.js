@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import HomeProjects from "../components/HomeProjects";
 import FeaturedCaseStudy from "../components/FeaturedCaseStudy";
 import HomeSkills from "../components/HomeSkills";
+import HomeServices from "../components/HomeServices";
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <HeroSpecialties />
             <HomeProjects />
             <FeaturedCaseStudy />
+            <HomeServices />
             <HomeAbout />
             <HomeSkills />
             <Footer />

@@ -1,0 +1,117 @@
+const ServicesData = [
+  {
+    id: 'end-to-end-game-programming',
+    title: 'End-to-End Game Programming',
+    summary: 'Technical ownership from early prototype through production and launch support. I can build and integrate the gameplay architecture, core systems, UI logic, persistence, multiplayer features, development tools, optimization, packaging, and documentation required to turn a defined game concept into a playable release.',
+    suitableFor: 'Indie developers and small teams with a defined creative direction who need one programmer to own the technical implementation across the project.',
+    deliverables: [
+      'Technical architecture and implementation plan',
+      'Core gameplay loop and supporting systems',
+      'UI logic, persistence, progression, and tools as scoped',
+      'Multiplayer gameplay features where required',
+      'Optimization, packaged-build validation, and launch support',
+      'Technical documentation and project handoff',
+    ],
+    accent: 'green',
+    featured: true,
+  },
+  {
+    id: 'architectural-refactoring',
+    title: 'Architectural Refactoring and Technical Recovery',
+    summary: 'Rapid prototypes, AI-assisted projects, and organically grown codebases can reach a point where adding features becomes slow and unpredictable. I assess system ownership, data flow, dependencies, lifecycle, Blueprint/C++ boundaries, multiplayer authority, and performance risks, then incrementally restructure the project into modular, maintainable systems.',
+    suitableFor: 'Projects that already work but have become difficult to debug, extend, test, package, or prepare for multiplayer and continued production.',
+    deliverables: [
+      'Architecture, ownership, and dependency assessment',
+      'Data-flow and lifecycle mapping',
+      'Prioritized, staged refactoring plan',
+      'Incremental restructuring that preserves working behavior',
+      'Replication, initialization, and performance corrections',
+      'Validation, migration guidance, and technical documentation',
+    ],
+    accent: 'blue',
+    featured: true,
+  },
+  {
+    id: 'unreal-gameplay-systems',
+    title: 'Unreal Engine Gameplay Systems',
+    summary: 'Focused development of gameplay features and reusable systems in Unreal Engine C++ and Blueprint, designed around clear ownership, designer-facing configuration, maintainability, and packaged-build reliability.',
+    suitableFor: 'Teams that need an experienced Unreal programmer to own a defined feature or system inside an existing project.',
+    deliverables: [
+      'Gameplay feature architecture and implementation',
+      'Interaction, dialogue, progression, combat, objectives, or persistence systems',
+      'Subsystem, component, data-asset, and event-driven integration',
+      'Blueprint-facing configuration and extension points',
+      'Editor, packaged-build, and regression testing',
+      'Designer and developer documentation',
+    ],
+    accent: 'green',
+  },
+  {
+    id: 'blueprint-to-cpp-migration',
+    title: 'Blueprint-to-C++ Migration',
+    summary: 'Move Blueprint-heavy gameplay systems into modular Unreal Engine C++ while preserving the Blueprint hooks, events, and configuration designers need to continue working efficiently.',
+    suitableFor: 'Unreal projects whose Blueprint implementation has become difficult to maintain, reuse, test, profile, or extend safely.',
+    deliverables: [
+      'Existing-system and dependency inventory',
+      'Clear C++ versus Blueprint responsibility boundaries',
+      'Staged migration with behavior-parity checks',
+      'Blueprint-callable APIs, delegates, components, subsystems, and data assets as appropriate',
+      'Packaged-build validation and regression testing',
+      'Migration and usage documentation',
+    ],
+    accent: 'green',
+  },
+  {
+    id: 'multiplayer-foundations',
+    title: 'Multiplayer Foundations and Replicated Gameplay',
+    summary: 'Build or stabilize server-authoritative gameplay features with deliberate ownership, replication, initialization, and state-distribution boundaries for listen-server and dedicated-server projects.',
+    suitableFor: 'Unreal teams adding multiplayer to a prototype, extending a multiplayer foundation, or correcting gameplay that behaves differently across server and clients.',
+    deliverables: [
+      'Gameplay authority and ownership model',
+      'GameMode, GameState, PlayerState, Controller, and Pawn responsibility mapping',
+      'Replicated gameplay state and event flows',
+      'Listen-server and dedicated-server validation',
+      'Multiplayer debugging and runtime diagnostics',
+      'Lyra or existing-framework integration where appropriate',
+    ],
+    accent: 'blue',
+  },
+  {
+    id: 'prototypes-specialized-systems',
+    title: 'Prototypes and Specialized Systems',
+    summary: 'Build focused prototypes and specialized gameplay systems that validate the important technical and gameplay questions before a team commits to a larger production scope.',
+    suitableFor: 'Clients who need a playable proof of concept, a milestone-based prototype, or a specialized system integrated into a larger game.',
+    deliverables: [
+      'Scoped prototype architecture and acceptance criteria',
+      'Playable core loop or vertical feature slice',
+      'Grid placement, tower-defense, RTS command, RPG, or interaction systems',
+      'Technical feasibility and performance validation',
+      'Clear separation between prototype scope and future production work',
+      'Integration and continuation documentation',
+    ],
+    accent: 'green',
+  },
+];
+
+export const HomeServicesData = [
+  {
+    id: 'home-end-to-end',
+    title: 'End-to-End Game Programming',
+    summary: 'Technical ownership for an indie project from early prototype through production and launch support.',
+    accent: 'green',
+  },
+  {
+    id: 'home-architecture',
+    title: 'Architectural Refactoring',
+    summary: 'Assessment and incremental recovery of projects that have become difficult to extend, debug, or scale.',
+    accent: 'blue',
+  },
+  {
+    id: 'home-gameplay-multiplayer',
+    title: 'Gameplay and Multiplayer Systems',
+    summary: 'Focused Unreal Engine development for gameplay features, Blueprint-to-C++ migration, and replicated systems.',
+    accent: 'blue',
+  },
+];
+
+export default ServicesData;
