@@ -11,7 +11,7 @@ const About = () => {
       <HeroImg3
         eyebrow="ABOUT"
         heading="Gameplay & Systems Engineer"
-        text="I build scalable gameplay systems, AI, and multiplayer experiences in Unreal Engine and Unity."
+        text="Creating experiences at META4 Interactive with UEFN and Verse, with a background in Unreal Engine and Unity gameplay systems."
       />
       <AboutContent />
       <Footer />

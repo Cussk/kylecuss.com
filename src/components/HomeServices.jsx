@@ -10,7 +10,7 @@ const HomeServices = () => {
         <div className='home-services__intro'>
           <span className='home-services__eyebrow'>SERVICES</span>
           <h2 className='home-services__title'>Programming support from focused systems to full-project ownership.</h2>
-          <p className='home-services__copy'>I work with indie developers and game teams on implementation, architectural recovery, multiplayer gameplay, and milestone-based development in Unreal Engine and Unity.</p>
+          <p className='home-services__copy'>My capabilities cover implementation, architectural recovery, multiplayer gameplay, and milestone-based development in Unreal Engine, UEFN, Verse, and Unity.</p>
         </div>
         <div className='home-services__grid'>
           {HomeServicesData.map((service) => (

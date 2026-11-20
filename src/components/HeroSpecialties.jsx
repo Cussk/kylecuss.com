@@ -2,6 +2,7 @@ import './HeroSpecialties.css';
 import React from 'react';
 
 const specialties = [
+  'UEFN & Verse',
   'Gameplay Systems',
   'Multiplayer Architecture',
   'AI Behaviors',

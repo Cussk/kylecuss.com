@@ -37,9 +37,9 @@ const Form = () => {
             <h2 className='contact-copy__title'>Let’s talk about your project.</h2>
 
             <p>
-              I’m available for remote contract and freelance game-development work, including complete
-              technical implementation, architectural refactoring, gameplay systems, Blueprint-to-C++
-              migration, and multiplayer features.
+              I currently work at META4 Interactive, creating experiences in UEFN and Verse. My
+              background also includes technical implementation, architectural refactoring, gameplay
+              systems, Blueprint-to-C++ migration, and multiplayer features.
             </p>
 
             <p>
@@ -55,7 +55,7 @@ const Form = () => {
 
               <div className='contact-details__item'>
                 <span className='contact-details__label'>Focus</span>
-                <p>Game Programming, Architectural Refactoring, Gameplay Systems, Multiplayer, Unreal Engine, Unity</p>
+                <p>Game Programming, Architectural Refactoring, Gameplay Systems, Multiplayer, Unreal Engine, UEFN, Verse, Scene Graph, Unity</p>
               </div>
 
               <div className='contact-details__item'>

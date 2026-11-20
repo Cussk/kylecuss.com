@@ -7,6 +7,10 @@ const skills = [
   'Multiplayer',
   'AI / Behavior',
   'Unreal Engine',
+  'UEFN',
+  'Verse',
+  'Scene Graph',
+  'Lore (UEFN Source Control)',
   'Unity',
   'Technical Architecture',
 ];
@@ -33,9 +37,10 @@ const AboutContent = () => {
             </p>
 
             <p>
-              I work primarily in Unreal Engine and Unity, and currently contribute to multiplayer
-              game development with RED Gaming. Outside of team projects, I continue exploring new
-              mechanics, prototypes, and systems as a solo developer.
+              I currently work at META4 Interactive, creating experiences in Unreal Editor for
+              Fortnite (UEFN) and Verse. My skills include Scene Graph and Lore for UEFN source
+              control, alongside my Unreal Engine and Unity experience. Outside of team projects,
+              I continue exploring new mechanics, prototypes, and systems as a solo developer.
             </p>
 
             <div className='about-actions'>
@@ -62,8 +67,8 @@ const AboutContent = () => {
             <div className='about-card__block'>
               <span className='about-card__label'>Current Work</span>
               <ul>
-                <li>Gameplay & systems development with RED Gaming</li>
-                <li>Multiplayer gameplay architecture and feature integration</li>
+                <li>Creating UEFN and Verse experiences at META4 Interactive</li>
+                <li>Scene Graph development and Lore source control workflows</li>
                 <li>Solo prototyping for future original projects</li>
               </ul>
             </div>

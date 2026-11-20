@@ -16,6 +16,8 @@ const HomeSkills = () => {
             <div className='home-skills__pills'>
               <span className='home-skills__pill'>C++</span>
               <span className='home-skills__pill'>Unreal Engine</span>
+              <span className='home-skills__pill'>UEFN</span>
+              <span className='home-skills__pill'>Verse</span>
               <span className='home-skills__pill'>Unity</span>
               <span className='home-skills__pill'>C#</span>
               <span className='home-skills__pill'>Blueprint</span>
@@ -27,6 +29,7 @@ const HomeSkills = () => {
             <h3 className='home-skills__heading home-skills__heading--blue'>Systems Focus</h3>
             <div className='home-skills__pills'>
               <span className='home-skills__pill home-skills__pill--blue'>Gameplay Systems</span>
+              <span className='home-skills__pill home-skills__pill--blue'>Scene Graph</span>
               <span className='home-skills__pill home-skills__pill--blue'>Multiplayer</span>
               <span className='home-skills__pill home-skills__pill--blue'>AI / Behavior</span>
               <span className='home-skills__pill home-skills__pill--blue'>Replication</span>
@@ -40,6 +43,7 @@ const HomeSkills = () => {
             <div className='home-skills__pills'>
               <span className='home-skills__pill home-skills__pill--pink'>Perforce</span>
               <span className='home-skills__pill home-skills__pill--pink'>Git</span>
+              <span className='home-skills__pill home-skills__pill--pink'>Lore (UEFN Source Control)</span>
               <span className='home-skills__pill home-skills__pill--pink'>Rider</span>
               <span className='home-skills__pill home-skills__pill--pink'>Play Asset Delivery</span>
               <span className='home-skills__pill home-skills__pill--pink'>Scriptable Objects</span>

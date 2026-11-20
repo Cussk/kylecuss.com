@@ -9,7 +9,7 @@ const EngineSupportSection = () => {
         <div className='engine-support__heading'>
           <span className='services-eyebrow'>ENGINE SUPPORT</span>
           <h2 id='engine-support-title'>Unreal-focused, with production experience across engines.</h2>
-          <p>Unreal Engine is my primary focus, but the underlying work I specialize in, including gameplay architecture, ownership, data flow, debugging, performance, and production delivery, transfers across engines and platforms.</p>
+          <p>My current work includes creating UEFN and Verse experiences at META4 Interactive, alongside my Unreal Engine and Unity background. My focus on gameplay architecture, ownership, data flow, debugging, performance, and production delivery transfers across engines and platforms.</p>
         </div>
         <div className='engine-support__grid'>
           {EngineSupportData.map((engine) => (

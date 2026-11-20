@@ -16,7 +16,7 @@ const HeroImg = () => {
         <p className='home-hero__subtitle'>
           Building scalable multiplayer gameplay systems,<br />
           AI behaviors, and data-driven architecture<br /> 
-          in Unreal Engine and Unity.
+          in Unreal Engine, UEFN, and Unity.
         </p>
 
         <div className='home-hero__actions'>

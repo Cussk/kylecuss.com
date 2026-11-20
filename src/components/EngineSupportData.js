@@ -1,5 +1,21 @@
 const EngineSupportData = [
   {
+    id: 'uefn-verse-development',
+    title: 'UEFN & Verse Development',
+    accent: 'pink',
+    paragraphs: [
+      'I currently create experiences at META4 Interactive using Unreal Editor for Fortnite (UEFN) and Verse.',
+      'My UEFN skills include Verse gameplay programming, Scene Graph, and Lore for source control, supporting collaborative experience development.',
+    ],
+    availableFor: [
+      'UEFN experience development and prototyping',
+      'Verse gameplay systems and feature implementation',
+      'Scene Graph development',
+      'Lore source control workflows for UEFN teams',
+      'Existing-experience maintenance and feature development',
+    ],
+  },
+  {
     id: 'unity-development',
     title: 'Unity Development',
     accent: 'green',

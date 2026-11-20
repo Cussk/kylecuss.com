@@ -24,7 +24,7 @@
 
 .engine-support__grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1.5rem;
 }
 
@@ -40,6 +40,10 @@
 
 .engine-support-card--green {
     border-top-color: #8df75a;
+}
+
+.engine-support-card--pink {
+    border-top-color: #ff5db1;
 }
 
 .engine-support-card h3 {
@@ -75,6 +79,10 @@
     color: #8df75a;
 }
 
+.engine-support-card--pink .engine-support-card__label {
+    color: #ff5db1;
+}
+
 .engine-support-card ul {
     display: grid;
     gap: 0.7rem;
@@ -96,6 +104,10 @@
 
 .engine-support-card--green:hover {
     border-color: rgba(141, 247, 90, 0.35);
+}
+
+.engine-support-card--pink:hover {
+    border-color: rgba(255, 93, 177, 0.35);
 }
 
 @media screen and (max-width: 900px) {
